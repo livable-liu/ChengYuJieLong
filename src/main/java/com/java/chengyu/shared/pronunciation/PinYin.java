@@ -79,4 +79,25 @@ public class PinYin
    {
       return this.cluster;
    }
+
+   @Override
+   public String toString()
+   {
+      StringBuffer sb = new StringBuffer();
+      sb.append("base = ");
+      sb.append(this.base);
+      sb.append(" first = ");
+      sb.append(this.one);
+      sb.append(" second = ");
+      sb.append(this.two);
+      sb.append(" third = ");
+      sb.append(this.three);
+      sb.append(" last = ");
+      sb.append(this.four);
+      sb.append(" silence = ");
+      sb.append(this.base);
+      sb.append(" cluster = ");
+      sb.append(this.cluster);
+      return sb.toString();
+   }
 }

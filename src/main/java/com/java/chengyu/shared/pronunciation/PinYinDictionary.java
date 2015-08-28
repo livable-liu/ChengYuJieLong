@@ -6,7 +6,7 @@ public class PinYinDictionary
 {
    private HashMap<String, PinYin> map;
 
-   PinYinDictionary()
+   public PinYinDictionary()
    {
       map = new HashMap<String, PinYin>();
    }

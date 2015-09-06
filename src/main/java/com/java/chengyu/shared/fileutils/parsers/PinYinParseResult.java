@@ -16,4 +16,9 @@ public class PinYinParseResult extends ParseResult
    {
       dict.putPinYinUnderDisplay(pinyin.getBase(), pinyin);
    }
+
+   public int getSize()
+   {
+      return dict.size();
+   }
 }

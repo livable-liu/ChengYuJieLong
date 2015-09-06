@@ -9,7 +9,7 @@ public class PinYinParser implements Parser
    private StringSource content;
    private PinYinParseResult result;
 
-   public ParseResult parse()
+   public void parse()
    {
       String source = content.getSource();
       result = new PinYinParseResult();
@@ -18,19 +18,16 @@ public class PinYinParser implements Parser
          int start = 0;
          int index = source.indexOf("\r\n", start);
 
-         while (index > 0)
+         while (index > 0 && index + "\r\n".length() < source.length() - 1)
          {
             String tmp = source.substring(start, index);
             String[] array = tmp.split(splitter);
-            for (int i = 0; i < array.length; i++)
-            {
-               PinYin pinyin = new PinYin(array[0], array[1], array[2], array[3], array[4],
-                     array[6].charAt(0));
-               result.addItem(pinyin);
-            }
+            PinYin pinyin = new PinYin(array[1], array[2], array[3], array[4], array[5], array[7].charAt(0));
+            result.addItem(pinyin);
+            start = index + "\r\n".length();
+            index = source.indexOf("\r\n", start);
          }
       }
-      return result;
    }
 
    public void setSplitter(String splitter)

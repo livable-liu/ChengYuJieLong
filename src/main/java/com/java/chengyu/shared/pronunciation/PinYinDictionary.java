@@ -20,4 +20,9 @@ public class PinYinDictionary
    {
       map.put(display, pinyin);
    }
+
+   public int size()
+   {
+      return map.size();
+   }
 }

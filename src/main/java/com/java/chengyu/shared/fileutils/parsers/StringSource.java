@@ -3,7 +3,7 @@ package com.java.chengyu.shared.fileutils.parsers;
 
 public class StringSource extends ParseSource
 {
-   StringSource(String content)
+   public StringSource(String content)
    {
       this.content = content;
    }

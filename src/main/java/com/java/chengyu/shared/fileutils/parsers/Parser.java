@@ -3,7 +3,7 @@ package com.java.chengyu.shared.fileutils.parsers;
 
 public interface Parser
 {
-   ParseResult parse();
+   void parse();
 
    void setSplitter(String splitter);
 

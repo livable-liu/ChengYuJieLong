@@ -19,7 +19,7 @@ import com.java.chengyu.shared.httputils.HTTPSimulator;
  * 3. should solve the incorrect 一臧一否 yizangyifou -> yī zāng yī pǐ
  * 4. illegal pinyin 绅士风度 shen1 shi4 feng1 du4,shen1 shi4 pai4 tou2,shen1 shi4 qi4
  */
-public class OptimizeChengYuPinyinCollection
+public class DownloadChengYuPinyinFromBaike
 {
    static final Logger FUNCTION = Logger.getLogger("FUNCTION");
 

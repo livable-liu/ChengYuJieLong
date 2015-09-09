@@ -15,7 +15,7 @@ import com.java.chengyu.shared.pronunciation.PinYin;
  * Download all PinYin collection from the Internet!
  *
  */
-public class DownloadPinyinCollection
+public class DownloadPinyinCollectionFrom5156edu
 {
    static final Logger FUNCTION = Logger.getLogger("FUNCTION");
 

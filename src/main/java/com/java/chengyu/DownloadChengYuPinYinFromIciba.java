@@ -15,7 +15,7 @@ import com.java.chengyu.shared.httputils.HTTPSimulator;
  * Optimize ChengYu PinYin source from the Internet!
  *
  */
-public class OptimizeChengYuPinyinCollection2
+public class DownloadChengYuPinYinFromIciba
 {
    static final Logger FUNCTION = Logger.getLogger("FUNCTION");
 

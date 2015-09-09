@@ -78,6 +78,7 @@ public class HTTPSimulator
          localHttpURLConnection.setRequestProperty("Referer", referer);
          localHttpURLConnection.setRequestProperty("Accept-Language", "zh-CN,zh;q=0.8");
          localHttpURLConnection.setConnectTimeout(10000);
+         localHttpURLConnection.setInstanceFollowRedirects(true);
          localHttpURLConnection.connect();
          int i = localHttpURLConnection.getResponseCode();
          if (i != 200)
@@ -85,6 +86,9 @@ public class HTTPSimulator
             localHttpURLConnection.disconnect();
             return null;
          }
+         int contentLength = localHttpURLConnection.getContentLength();
+         if (contentLength <= 0)
+            contentLength = Integer.MAX_VALUE;
          String str = localHttpURLConnection.getHeaderField("Content-Type");
          if (charset == null || "".equals(charset))
          {
@@ -104,10 +108,12 @@ public class HTTPSimulator
          InputStream localInputStream = localHttpURLConnection.getInputStream();
          byte[] arrayOfByte = new byte[1024];
          int j = 0;
+         int len = 0;
          ByteBuffer localByteBuffer = new ByteBuffer(16);
-         while ((j = localInputStream.read(arrayOfByte)) >= 0)
+         while (len < contentLength && (j = localInputStream.read(arrayOfByte)) >= 0)
          {
             localByteBuffer.append(arrayOfByte, 0, j);
+            len += j;
          }
          localInputStream.close();
          localHttpURLConnection.disconnect();

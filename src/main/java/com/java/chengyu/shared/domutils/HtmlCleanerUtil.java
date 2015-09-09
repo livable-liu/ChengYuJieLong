@@ -11,6 +11,8 @@ import org.htmlcleaner.XPatherException;
 
 public class HtmlCleanerUtil
 {
+   private static final HtmlCleaner cleaner = new HtmlCleaner();
+
    public static Object[] findByXpath(TagNode dom, String xpath)
       throws XPatherException
    {
@@ -20,9 +22,6 @@ public class HtmlCleanerUtil
 
    public static TagNode parse(String content)
    {
-      // create an instance of HtmlCleaner
-      HtmlCleaner cleaner = new HtmlCleaner();
-
       // take default cleaner properties
       CleanerProperties props = cleaner.getProperties();
       props.setAllowHtmlInsideAttributes(true);
@@ -37,9 +36,6 @@ public class HtmlCleanerUtil
    public static TagNode parse(InputStream in)
       throws IOException
    {
-      // create an instance of HtmlCleaner
-      HtmlCleaner cleaner = new HtmlCleaner();
-
       // take default cleaner properties
       CleanerProperties props = cleaner.getProperties();
       props.setAllowHtmlInsideAttributes(true);
@@ -54,9 +50,6 @@ public class HtmlCleanerUtil
    public static TagNode parse(URL url)
       throws IOException
    {
-      // create an instance of HtmlCleaner
-      HtmlCleaner cleaner = new HtmlCleaner();
-
       // take default cleaner properties
       CleanerProperties props = cleaner.getProperties();
       props.setAllowHtmlInsideAttributes(true);

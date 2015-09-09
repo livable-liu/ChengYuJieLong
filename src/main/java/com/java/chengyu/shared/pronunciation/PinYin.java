@@ -50,6 +50,34 @@ public class PinYin
       }
    }
 
+   public int getIndexByDisplay(String display)
+   {
+      if (display.equals(this.base))
+      {
+         return 0;
+      }
+      else if (display.equals(this.one))
+      {
+         return 1;
+      }
+      else if (display.equals(this.two))
+      {
+         return 2;
+      }
+      else if (display.equals(this.three))
+      {
+         return 3;
+      }
+      else if (display.equals(this.four))
+      {
+         return 4;
+      }
+      else
+      {
+         return 0;
+      }
+   }
+
    public String getFirst()
    {
       return this.one;

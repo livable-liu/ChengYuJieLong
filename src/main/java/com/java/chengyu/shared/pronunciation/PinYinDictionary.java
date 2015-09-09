@@ -1,5 +1,6 @@
 package com.java.chengyu.shared.pronunciation;
 
+import java.util.Collection;
 import java.util.HashMap;
 
 public class PinYinDictionary
@@ -24,5 +25,10 @@ public class PinYinDictionary
    public int size()
    {
       return map.size();
+   }
+
+   public Collection<PinYin> values()
+   {
+      return map.values();
    }
 }

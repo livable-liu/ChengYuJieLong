@@ -9,7 +9,7 @@ base = ban first = bān second =  third = bǎn, last = bàn, silence = ban clust
 base = bang first = bāng, second =  third = bǎng, last = bàng, silence = bang cluster = b
 base = bao first = bāo, second = báo, third = bǎo, last = bào, silence = bao cluster = b
 base = bei first = bēi, second =  third = běi, last = bèi, silence = bei cluster = b
-base = ben first =  second =  third = běn, last = bèn, silence = ben cluster = b
+base = ben first = bēn second =  third = běn, last = bèn, silence = ben cluster = b
 base = beng first = bēng, second = béng, third = běng, last = bèng, silence = beng cluster = b
 base = bi first = bī, second = bí, third = bǐ, last = bì, silence = bi cluster = b
 base = bian first = biān, second =  third = biǎn, last = biàn, silence = bian cluster = b
@@ -57,7 +57,7 @@ base = cuo first = cuō second = cuó third = cuǒ last = cuò silence = cuo clu
 base = da first = dā second = dá third = dǎ last = dà silence = da cluster = d
 base = dai first = dāi second =  third = dǎi last = dài silence = dai cluster = d
 base = dan first = dān second =  third = dǎn last = dàn silence = dan cluster = d
-base = dang first =  second =  third =  last = dàng silence = dang cluster = d
+base = dang first = dāng second =  third = dǎng last = dàng silence = dang cluster = d
 base = dao first = dāo second = dáo third = dǎo last = dào silence = dao cluster = d
 base = de first = dē second = dé third =  last =  silence = de cluster = d
 base = den first =  second =  third =  last = dèn silence = den cluster = d
@@ -93,15 +93,15 @@ base = fou first =  second = fóu third = fǒu last =  silence = fou cluster = f
 base = fu first = fū second = fú third = fǔ last = fù silence = fu cluster = f
 base = ga first = gā second = gá third = gǎ last = gà silence = ga cluster = g
 base = gai first = gāi second =  third = gǎi last = gài silence = gai cluster = g
-base = gan first =  second =  third = gǎn last = gàn silence = gan cluster = g
-base = gang first = gǎng second =  third =  last = gàng silence = gang cluster = g
+base = gan first = gān second =  third = gǎn last = gàn silence = gan cluster = g
+base = gang first = gāng second =  third = gǎng last = gàng silence = gang cluster = g
 base = gao first = gāo second =  third = gǎo last = gào silence = gao cluster = g
 base = ge first = gē second = gé third = gě last = gè silence = ge cluster = g
 base = gei first =  second =  third = gěi last =  silence = gei cluster = g
 base = gen first = gēn second = gén third = gěn last = gèn silence = gen cluster = g
-base = geng first =  second =  third = gěng last = gèng silence = geng cluster = g
+base = geng first = gēng second =  third = gěng last = gèng silence = geng cluster = g
 base = gong first = gōng second =  third = gǒng last = gòng silence = gong cluster = g
-base = gou first =  second =  third = gǒu last = gòu silence = gou cluster = g
+base = gou first = gōu second =  third = gǒu last = gòu silence = gou cluster = g
 base = gu first = gū second = gú third = gǔ last = gù silence = gu cluster = g
 base = gua first = guā second =  third = guǎ last = guà silence = gua cluster = g
 base = guai first = guāi second = guái third = guǎi last = guài silence = guai cluster = g
@@ -113,7 +113,7 @@ base = guo first = guō second = guó third = guǒ last = guò silence = guo clu
 base = ha first = hā second = há third = hǎ last = hà silence = ha cluster = h
 base = hai first = hāi second = hái third = hǎi last = hài silence = hai cluster = h
 base = han first = hān second = hán third = hǎn last = hàn silence = han cluster = h
-base = hang first = hāng second = hàng third =  last =  silence = hang cluster = h
+base = hang first = hāng second = háng third =  last = hàng silence = hang cluster = h
 base = hao first = hāo second = háo third = hǎo last = hào silence = hao cluster = h
 base = he first = hē second = hé third =  last = hè silence = he cluster = h
 base = hei first = hēi second =  third =  last =  silence = hei cluster = h
@@ -122,7 +122,7 @@ base = heng first = hēng second = héng third =  last = hèng silence = heng cl
 base = hong first = hōng second = hóng third = hǒng last = hòng silence = hong cluster = h
 base = hou first = hōu second = hóu third = hǒu last = hòu silence = hou cluster = h
 base = hu first = hū second = hú third = hǔ last = hù silence = hu cluster = h
-base = hua first =  second = huá third =  last = huà silence = hua cluster = h
+base = hua first = huā second = huá third =  last = huà silence = hua cluster = h
 base = huai first =  second = huái third =  last = huài silence = huai cluster = h
 base = huan first = huān second = huán third = huǎn last = huàn silence = huan cluster = h
 base = huang first = huāng second = huáng third = huǎng last = huàng silence = huang cluster = h
@@ -135,13 +135,13 @@ base = jian first = jiān second = jián third = jiǎn last = jiàn silence = ji
 base = jiang first = jiāng second =  third = jiǎng last = jiàng silence = jiang cluster = j
 base = jiao first = jiāo second = jiáo third = jiǎo last = jiào silence = jiao cluster = j
 base = jie first = jiē second = jié third = jiě last = jiè silence = jie cluster = j
-base = jin first = jīn second =  third =  last = jìn silence = jin cluster = j
+base = jin first = jīn second =  third = jǐn last = jìn silence = jin cluster = j
 base = jing first = jīng second =  third = jǐng last = jìng silence = jing cluster = j
 base = jiong first = jiōng second =  third = jiǒng last =  silence = jiong cluster = j
 base = jiu first = jiū second =  third = jiǔ last = jiù silence = jiu cluster = j
 base = ju first = jū second = jú third = jǔ last = jù silence = ju cluster = j
 base = juan first = juān second =  third = juǎn last = juàn silence = juan cluster = j
-base = jue first = juē second = juè third =  last =  silence = jue cluster = j
+base = jue first = juē second = jué third =  last = juè silence = jue cluster = j
 base = jun first = jūn second =  third =  last = jùn silence = jun cluster = j
 base = ka first = kā second =  third = kǎ last =  silence = ka cluster = k
 base = kai first = kāi second =  third = kǎi last = kài silence = kai cluster = k
@@ -151,7 +151,7 @@ base = kao first = kāo second =  third = kǎo last = kào silence = kao cluster
 base = ke first = kē second = ké third = kě last = kè silence = ke cluster = k
 base = ken first =  second =  third = kěn last = kèn silence = ken cluster = k
 base = keng first = kēng second =  third =  last =  silence = keng cluster = k
-base = kong first = kòng second =  third = kǒng last =  silence = kong cluster = k
+base = kong first = kòng second =  third = kǒng last = kòng silence = kong cluster = k
 base = kou first = kōu second =  third = kǒu last = kòu silence = kou cluster = k
 base = ku first = kū second =  third = kǔ last = kù silence = ku cluster = k
 base = kua first = kuā second =  third = kuǎ last = kuà silence = kua cluster = k
@@ -176,7 +176,7 @@ base = liang first =  second = liáng third = liǎng last = liàng silence = lia
 base = liao first = liāo second = liáo third = liǎo last = liào silence = liao cluster = l
 base = lie first =  second =  third = liě last = liè silence = lie cluster = l
 base = lin first = līn second = lín third = lǐn last = lìn silence = lin cluster = l
-base = ling first =  second =  third = lǐng last = lìng silence = ling cluster = l
+base = ling first =  second = líng third = lǐng last = lìng silence = ling cluster = l
 base = liu first = liū second = liú third = liǔ last = liù silence = liu cluster = l
 base = long first =  second = lóng third = lǒng last = lòng silence = long cluster = l
 base = lou first = lōu second = lóu third = lǒu last = lòu silence = lou cluster = l
@@ -195,7 +195,7 @@ base = mang first = māng second = máng third = mǎng last =  silence = mang cl
 base = mao first = māo second = máo third = mǎo last = mào silence = mao cluster = m
 base = me first =  second =  third =  last =  silence = me cluster = m
 base = mei first =  second = méi third = měi last = mèi silence = mei cluster = m
-base = men first =  second = mén third =  last = mèn silence = men cluster = m
+base = men first = mēn second = mén third =  last = mèn silence = men cluster = m
 base = meng first = mēng second = méng third = měng last = mèng silence = meng cluster = m
 base = mi first = mī second = mí third = mǐ last = mì silence = mi cluster = m
 base = mian first =  second = mián third = miǎn last = miàn silence = mian cluster = m
@@ -223,7 +223,7 @@ base = niang first =  second = niáng third =  last = niàng silence = niang clu
 base = niao first =  second =  third = niǎo last = niào silence = niao cluster = n
 base = nie first = niē second = nié third =  last = niè silence = nie cluster = n
 base = nin first =  second = nín third = nǐn last =  silence = nin cluster = n
-base = ning first =  second =  third = nǐng last = nìng silence = ning cluster = n
+base = ning first =  second = níng third = nǐng last = nìng silence = ning cluster = n
 base = niu first = niū second = niú third = niǔ last = niù silence = niu cluster = n
 base = nong first =  second = nóng third = nǒng last = nòng silence = nong cluster = n
 base = nou first =  second = nóu third =  last = nòu silence = nou cluster = n
@@ -281,10 +281,10 @@ base = rui first =  second = ruí third = ruǐ last = ruì silence = rui cluster
 base = run first =  second =  third =  last = rùn silence = run cluster = r
 base = ruo first =  second = ruó third =  last = ruò silence = ruo cluster = r
 base = sa first = sā second =  third = sǎ last = sà silence = sa cluster = s
-base = sai first = sài second =  third =  last =  silence = sai cluster = s
+base = sai first = sài second =  third =  last = sài silence = sai cluster = s
 base = san first = sān second =  third = sǎn last = sàn silence = san cluster = s
-base = sang first =  second =  third = sǎng last = sàng silence = sang cluster = s
-base = sao first = sāo second =  third =  last = sào silence = sao cluster = s
+base = sang first = sāng second =  third = sǎng last = sàng silence = sang cluster = s
+base = sao first = sāo second =  third = sǎo last = sào silence = sao cluster = s
 base = se first = sē second =  third =  last = sè silence = se cluster = s
 base = sen first = sēn second =  third =  last =  silence = sen cluster = s
 base = seng first = sēng second =  third =  last =  silence = seng cluster = s
@@ -300,7 +300,7 @@ base = sheng first = shēng second = shéng third = shěng last = shèng silence
 base = shi first = shī second = shí third = shǐ last = shì silence = shi cluster = s
 base = shou first = shōu second = shóu third = shǒu last = shòu silence = shou cluster = s
 base = shu first = shū second = shú third = shǔ last = shù silence = shu cluster = s
-base = shua first =  second =  third = shuǎ last = shuà silence = shua cluster = s
+base = shua first = shuā second =  third = shuǎ last = shuà silence = shua cluster = s
 base = shuai first = shuāi second =  third = shuǎi last = shuài silence = shuai cluster = s
 base = shuan first = shuān second =  third =  last = shuàn silence = shuan cluster = s
 base = shuang first = shuāng second =  third = shuǎng last = shuàng silence = shuang cluster = s
@@ -309,7 +309,7 @@ base = shun first = shūn second =  third = shǔn last = shùn silence = shun cl
 base = shuo first = shuō second =  third =  last = shuò silence = shuo cluster = s
 base = si first = sī second =  third = sǐ last = sì silence = si cluster = s
 base = song first = sōng second =  third = sǒng last = sòng silence = song cluster = s
-base = sou first =  second =  third = sǒu last = sòu silence = sou cluster = s
+base = sou first = sōu second =  third = sǒu last = sòu silence = sou cluster = s
 base = su first = sū second = sú third =  last = sù silence = su cluster = s
 base = suan first = suān second =  third = suǎn last = suàn silence = suan cluster = s
 base = sui first = suī second = suí third = suǐ last = suì silence = sui cluster = s
@@ -325,7 +325,7 @@ base = teng first = tēng second = téng third =  last = tèng silence = teng cl
 base = ti first = tī second = tí third = tǐ last = tì silence = ti cluster = t
 base = tian first = tiān second = tián third = tiǎn last = tiàn silence = tian cluster = t
 base = tiao first = tiāo second = tiáo third = tiǎo last = tiào silence = tiao cluster = t
-base = tie first = tiè second =  third =  last =  silence = tie cluster = t
+base = tie first = tiē second =  third = tiě last = tiè silence = tie cluster = t
 base = ting first = tīng second = tíng third = tǐng last = tìng silence = ting cluster = t
 base = tong first = tōng second = tóng third = tǒng last = tòng silence = tong cluster = t
 base = tou first = tōu second = tóu third = tǒu last = tòu silence = tou cluster = t
@@ -391,7 +391,7 @@ base = zhei first =  second =  third =  last = zhèi silence = zhei cluster = z
 base = zhen first = zhēn second =  third = zhěn last = zhèn silence = zhen cluster = z
 base = zheng first = zhēng second =  third = zhěng last = zhèng silence = zheng cluster = z
 base = zhi first = zhī second = zhí third = zhǐ last = zhì silence = zhi cluster = z
-base = zhong first =  second =  third = zhǒng last = zhòng silence = zhong cluster = z
+base = zhong first = zhōng second =  third = zhǒng last = zhòng silence = zhong cluster = z
 base = zhou first = zhōu second = zhóu third = zhǒu last = zhòu silence = zhou cluster = z
 base = zhu first = zhū second = zhú third = zhǔ last = zhù silence = zhu cluster = z
 base = zhua first = zhuā second =  third = zhuǎ last =  silence = zhua cluster = z

@@ -3,22 +3,22 @@ base = ai first = āi second = ái third = ǎi last = ài silence = ai cluster =
 base = an first = ān second = án third = ǎn last = àn silence = an cluster = a
 base = ang first = āng second = áng third =  last = àng silence = ang cluster = a
 base = ao first = āo second = áo third = ǎo last = ào silence = ao cluster = a
-base = ba first = bā second = bá, third = bǎ, last = bà silence = ba cluster = b
-base = bai first = bāi, second = bái, third = bǎi, last = bài, silence = bai cluster = b
-base = ban first = bān second =  third = bǎn, last = bàn, silence = ban cluster = b
-base = bang first = bāng, second =  third = bǎng, last = bàng, silence = bang cluster = b
-base = bao first = bāo, second = báo, third = bǎo, last = bào, silence = bao cluster = b
-base = bei first = bēi, second =  third = běi, last = bèi, silence = bei cluster = b
-base = ben first = bēn second =  third = běn, last = bèn, silence = ben cluster = b
-base = beng first = bēng, second = béng, third = běng, last = bèng, silence = beng cluster = b
-base = bi first = bī, second = bí, third = bǐ, last = bì, silence = bi cluster = b
-base = bian first = biān, second =  third = biǎn, last = biàn, silence = bian cluster = b
-base = biao first = biāo, second = biáo, third = biǎo last = biào, silence = biao cluster = b
-base = bie first = biē, second = bié, third = biě, last = biè, silence = bie cluster = b
-base = bin first = bīn, second =  third =  last = bìn, silence = bin cluster = b
-base = bing first = bīng, second =  third = bǐng, last = bìng, silence = bing cluster = b
-base = bo first = bō second = bó, third = bǒ, last = bò, silence = bo cluster = b
-base = bu first = bū, second = bú, third = bǔ, last = bù, silence = bu cluster = b
+base = ba first = bā second = bá third = bǎ last = bà silence = ba cluster = b
+base = bai first = bāi second = bái third = bǎi last = bài silence = bai cluster = b
+base = ban first = bān second =  third = bǎn last = bàn silence = ban cluster = b
+base = bang first = bāng second =  third = bǎng last = bàng silence = bang cluster = b
+base = bao first = bāo second = báo third = bǎo last = bào silence = bao cluster = b
+base = bei first = bēi second =  third = běi last = bèi silence = bei cluster = b
+base = ben first = bēn second =  third = běn last = bèn silence = ben cluster = b
+base = beng first = bēng second = béng third = běng last = bèng silence = beng cluster = b
+base = bi first = bī second = bí third = bǐ last = bì silence = bi cluster = b
+base = bian first = biān second =  third = biǎn last = biàn silence = bian cluster = b
+base = biao first = biāo second = biáo third = biǎo last = biào silence = biao cluster = b
+base = bie first = biē second = bié third = biě last = biè silence = bie cluster = b
+base = bin first = bīn second =  third =  last = bìn silence = bin cluster = b
+base = bing first = bīng second =  third = bǐng last = bìng silence = bing cluster = b
+base = bo first = bō second = bó third = bǒ last = bò silence = bo cluster = b
+base = bu first = bū second = bú third = bǔ last = bù silence = bu cluster = b
 base = ca first = cā second =  third = cǎ last = cà silence = ca cluster = c
 base = cai first = cāi second = cái third = cǎi last = cài silence = cai cluster = c
 base = can first = cān second = cán third = cǎn last = càn silence = can cluster = c

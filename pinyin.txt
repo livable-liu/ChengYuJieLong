@@ -405,7 +405,7 @@ base = zi first = zī second = zí third = zǐ last = zì silence = zi cluster =
 base = zong first = zōng second =  third = zǒng last = zòng silence = zong cluster = z
 base = zou first = zōu second =  third = zǒu last = zòu silence = zou cluster = z
 base = zu first = zū second = zú third = zǔ last =  silence = zu cluster = z
-base = zuan first =  second =  third = zuǎn last = zuàn silence = zuan cluster = z
+base = zuan first = zuān second =  third = zuǎn last = zuàn silence = zuan cluster = z
 base = zui first = zuī second =  third = zuǐ last = zuì silence = zui cluster = z
 base = zun first = zūn second =  third = zǔn last = zùn silence = zun cluster = z
 base = zuo first = zuō second = zuó third = zuǒ last = zuò silence = zuo cluster = z

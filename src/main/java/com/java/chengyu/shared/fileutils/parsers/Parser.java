@@ -1,5 +1,7 @@
 package com.java.chengyu.shared.fileutils.parsers;
 
+import com.java.chengyu.shared.pronunciation.Dictionary;
+
 
 public interface Parser
 {
@@ -14,5 +16,7 @@ public interface Parser
    ParseSource getSource();
 
    ParseResult getResult();
-
+   
+   void setDictionary(Dictionary dict);
+   
 }

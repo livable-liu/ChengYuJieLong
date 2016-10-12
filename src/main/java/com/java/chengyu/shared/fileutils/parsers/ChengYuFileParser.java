@@ -1,19 +1,25 @@
 package com.java.chengyu.shared.fileutils.parsers;
 
+import java.util.ArrayList;
+import java.util.List;
+
+import com.java.chengyu.shared.pronunciation.ChengYu;
 import com.java.chengyu.shared.pronunciation.Dictionary;
 import com.java.chengyu.shared.pronunciation.PinYin;
+import com.java.chengyu.shared.pronunciation.PinYinDictionary;
 
 
-public class PinYinParser implements Parser
+public class ChengYuFileParser implements Parser
 {
    private String splitter;
    private StringSource content;
-   private PinYinParseResult result;
+   private ChengYuParseResult result;
+   private PinYinDictionary dict;
 
    public void parse()
    {
       String source = content.getSource();
-      result = new PinYinParseResult();
+      result = new ChengYuParseResult();
       if (content != null && splitter != null)
       {
          int start = 0;
@@ -22,9 +28,23 @@ public class PinYinParser implements Parser
          while (index > 0 && index + "\r\n".length() < source.length() - 1)
          {
             String tmp = source.substring(start, index);
+            List<String> chengyuList = new ArrayList<String>();
+            List<PinYin> pinyinList = new ArrayList<PinYin>();
             String[] array = tmp.split(splitter);
-            PinYin pinyin = new PinYin(array[1].trim(), array[2].trim(), array[3].trim(), array[4].trim(), array[5].trim(), array[7].charAt(0));
-            result.addItem(pinyin);
+            String[] chengyuStr = array[0].trim().split("");
+            for (int i = 0; i < chengyuStr.length; i ++)
+            {
+               chengyuList.add(chengyuStr[i]);
+            }
+            for (int i = 1; i < array.length; i ++)
+            {
+               PinYin pinyin = dict.getPinYinFromRawDisplay(array[i]);
+               if (pinyin != null)
+               {
+                  pinyinList.add(pinyin);
+               }
+            }
+            result.addItem(new ChengYu(chengyuList, pinyinList));
             start = index + "\r\n".length();
             index = source.indexOf("\r\n", start);
          }
@@ -58,12 +78,15 @@ public class PinYinParser implements Parser
       return this.result;
 
    }
-
+   
+   public PinYinDictionary getDictionary()
+   {
+      return this.dict;
+   }
+   
    public void setDictionary(Dictionary dict)
    {
-      // TODO Implement setDictionary
-      throw new UnsupportedOperationException("setDictionary Not Implemented");
-      
+      this.dict = (PinYinDictionary) dict;
    }
 
 }

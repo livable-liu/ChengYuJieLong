@@ -17,6 +17,17 @@ public class ParsePinYinFile
 {
    static final Logger FUNCTION = Logger.getLogger("FUNCTION");
 
+   public static PinYinParseResult parsePinYinFile(String path)
+   {
+      String content = FileUtils.readStringFromLocalFile(path, "UTF-8");
+      Parser parser = new PinYinParser();
+      parser.setSource(new StringSource(content));
+      parser.setSplitter("[a-z]+\\s+=\\s+");
+      parser.parse();
+      PinYinParseResult result = (PinYinParseResult) parser.getResult();
+      return result;
+   }
+   
    public static void main(String[] args)
    {
       System.out.println("Enter parse PinYin Collection file!");

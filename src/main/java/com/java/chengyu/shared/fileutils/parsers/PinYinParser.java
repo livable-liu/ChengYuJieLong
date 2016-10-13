@@ -19,7 +19,8 @@ public class PinYinParser implements Parser
          int start = 0;
          int index = source.indexOf("\r\n", start);
 
-         while (index > 0 && index + "\r\n".length() < source.length() - 1)
+         // index == -1 && start < source.length() - 1 : this condition is for (file not end with \r\n)
+         while (index > 0 && index + "\r\n".length() <= source.length())
          {
             String tmp = source.substring(start, index);
             String[] array = tmp.split(splitter);
@@ -27,6 +28,14 @@ public class PinYinParser implements Parser
             result.addItem(pinyin);
             start = index + "\r\n".length();
             index = source.indexOf("\r\n", start);
+         }
+         //file not end with \r\n
+         if (index == -1 && start < source.length() - 1)
+         {
+            String tmp = source.substring(start);
+            String[] array = tmp.split(splitter);
+            PinYin pinyin = new PinYin(array[1].trim(), array[2].trim(), array[3].trim(), array[4].trim(), array[5].trim(), array[7].charAt(0));
+            result.addItem(pinyin);
          }
       }
    }

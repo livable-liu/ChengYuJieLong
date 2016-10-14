@@ -1519,7 +1519,7 @@
 变古易常 biàn gǔ yì cháng
 变故易常 biàn gǔ yì cháng
 变古易俗 biàn gǔ yì sú
-便还就孤 bian huan jiu gu
+便还就孤 biàn huán jiù gū
 编户齐民 biān hù qí mín
 变化不测 biàn huà bù cè
 变化不穷 biàn huà bù qióng
@@ -1962,7 +1962,7 @@
 不测之祸 bù cè zhī huò
 不测之忧 bù cè zhī yōu
 不测之罪 bù cè zhī zuì
-不曾序过 bu ceng xu guo
+不曾序过 bù céng xù guò
 不茶不饭 bù chá bù fàn
 不差毫发 bù chā háo fà
 不差毫厘 bù chā háo lí
@@ -1977,7 +1977,7 @@
 不痴不聋 bù chī bù lóng
 不啻天渊 bù chì tiān yuān
 不耻下问 bù chǐ xià wèn
-不耻相师 bu chi xiang shi
+不耻相师 bù chǐ xiāng shī
 不齿于人 bù chǐ yú rén
 不耻最后 bù chǐ zuì hòu
 不偢不倸 bù chǒu bù cǎi
@@ -2141,7 +2141,7 @@
 不拘小节 bù jū xiǎo jié
 不拘形迹 bù jū xíng jī
 不拘一格 bù jū yī gé
-不拘于时 bu ju yu shi
+不拘于时 bù jū yú shí
 补厥挂漏 bǔ jué guà lòu
 不觉技痒 bù jué jì yǎng
 不绝如带 bù jué rú dài
@@ -2352,7 +2352,7 @@
 不爽累黍 bù shuǎng lèi shǔ
 不死不活 bù sǐ bù huó
 不速之客 bù sù zhī kè
-不随以止 bu shui yi zi
+不随以止 bù suí yǐ zǐ
 步态蹒跚 bù tài pán shān
 不贪为宝 bù tān wé bǎo
 逋逃之臣 bū táo zhī chén
@@ -2630,7 +2630,7 @@
 材士练兵 cái shì liàn bīng
 才疏德薄 cái shū dé bó
 才疏计拙 cái shū jì zhuō
-裁书叙心 cai shu xu xin
+裁书叙心 cái shū xù xīn
 才疏学浅 cái shū xué qiǎn
 才疏意广 cái shū yì guǎng
 才疏志大 cái shū zhì dà
@@ -2817,7 +2817,7 @@
 草木愚夫 cǎo mù yú fū
 草木知威 cǎo mù zhī wēi
 操奇计赢 cāo qí jì yíng
-操其奇赢 chao qi ji ying
+操其奇赢 cāo qí qí yíng
 操奇逐赢 cāo qì zhù yíng
 操揉磨治 cāo róu mó zhì
 草蛇灰线 cǎo shé huī xiàn
@@ -3092,7 +3092,7 @@
 长夜难明 cháng yè nán míng
 长夜之饮 cháng yè zhī yǐn
 长揖不拜 cháng yī bù bài
-尝在围中 cang zhai wei zong
+尝在围中 cháng zài wéi zhōng
 长斋礼佛 cháng zhāi lǐ fó
 长斋绣佛 cháng zhāi xiù fó
 长枕大被 cháng zhěn dà bèi
@@ -5263,7 +5263,7 @@
 当头棒喝 dāng tóu bàng hè
 当头对面 dāng tóu duì miàn
 当头一棒 dāng tóu yī bàng
-当务始终 dang wu shi zhong
+当务始终 dāng wù shǐ zhōng
 当务之急 dāng wù zhī jí
 荡析离居 dàng xī lí jū
 党邪丑正 dǎng xié chǒu zhèng
@@ -5419,7 +5419,7 @@
 倒悬之苦 dào xuán zhī kǔ
 倒悬之危 dào xuán zhī wēi
 道学先生 dào xué xiān shēng
-导以取保 dao yi qu bao
+导以取保 dǎo yǐ qǔ bǎo
 盗亦有道 dào yì yǒu dào
 道义之交 dào yì zhī jiāo
 倒因为果 dǎo yīn wéi guǒ
@@ -5932,7 +5932,7 @@
 鼎食钟鸣 dǐng shí zhōng míng
 顶天立地 dǐng tiān lì dì
 顶天踵地 dǐng tiān zhǒng dì
-钉头磷磷 ding tou lin lin
+钉头磷磷 dīng tóu lín lín
 顶头上司 dǐng tóu shàng si
 顶头银两 dǐng tóu yín liǎng
 定武兰亭 dìng wǔ lán tíng
@@ -5961,11 +5961,11 @@
 钉嘴铁舌 dīng zuǐ tiě shé
 丢丢秀秀 diū diū xiù xiù
 丢风撒脚 diū fēng sā jiǎo
-丢魂丢魄 diu hún diu pò
-丢魂丧胆 diu1 hún sàng dǎn
+丢魂丢魄 diū hún diū pò
+丢魂丧胆 diū hún sàng dǎn
 丢魂失魄 diū hún shī pò
 丢车保帅 diū jū bǎo shuài
-丢盔抛甲 diu kuī pāo jiǎ
+丢盔抛甲 diū kuī pāo jiǎ
 丢盔弃甲 diū kuī qì jiǎ
 丢盔卸甲 diū kuī xiè jiǎ
 丢轮扯炮 diū lún chě pào
@@ -5973,9 +5973,9 @@
 丢眉丢眼 diū méi diū yǎn
 丢眉弄色 diū méi nòng sè
 丢人现眼 diū rén xiàn yǎn
-丢三拉四 diu sān lā sì
+丢三拉四 diū sān lā sì
 丢三落四 diū sān là sì
-丢三忘四 diu sān wàng sì
+丢三忘四 diū sān wàng sì
 丢心落肠 diū xīn luò cháng
 丢心落意 diū xīn luò yì
 丢卒保车 diū zú bǎo jū
@@ -6039,7 +6039,7 @@
 东躲西藏 dōng duǒ xī cáng
 东躲西跑 dōng duǒ xī pǎo
 洞房花烛 dòng fáng huā zhú
-东方将白 dong fang jiang bai
+东方将白 dōng fāng jiāng bái
 东方千骑 dōng fāng qiān jì
 东方三大 dōng fāng sān dà
 东方文化 dōng fāng wén huà
@@ -6347,7 +6347,7 @@
 蠹国殃民 dù guó yāng mín
 独鹤鸡群 dú hè jī qún
 妒火中烧 dù huǒ zhōng shāo
-度己失期 duo yi shi qi
+度己失期 dù jǐ shī qī
 都给事中 dū jǐ shì zhōng
 杜家中弟 dù jiā zhōng dì
 独茧抽丝 dú jiǎn chōu sī
@@ -6522,7 +6522,7 @@
 短褐不全 duǎn hè bù quán
 短褐不完 duān hè bù wán
 短褐穿结 duǎn hè chuān jié
-断鹤继凫 duan he xu fu
+断鹤继凫 duàn hè xù fú
 断鹤续凫 duàn hè xù fú
 断还归宗 duàn huán guī zōng
 断虀画粥 duàn jī huà zhōu
@@ -6916,7 +6916,7 @@
 二二虎虎 èr èr hǔ hǔ
 二分明月 èr fēn míng yuè
 二缶钟惑 èr fǒu zhōng huò
-二缶锺惑 er fou zhong huo
+二缶锺惑 èr fǒu zhōng huò
 耳根清净 ěr gēn qīng jìng
 耳根清浄 ěr gēn qīng jìng
 耳红面赤 ěr hóng miàn chì
@@ -7017,7 +7017,7 @@
 耳熏目染 ěr xūn mù rǎn
 尔虞我诈 ěr yú wǒ zhà
 尔诈我虞 ěr zhà wǒ yú
-佴之蚕室 er zi chan shi
+佴之蚕室 èr zhī cán shì
 伐冰之家 fá bīng zhī jiā
 罚不当罪 fá bù dāng zuì
 法不阿贵 fǎ bù ē guì
@@ -8230,7 +8230,7 @@
 父慈子孝 fù cí zǐ xiào
 浮翠流丹 fú cuì liú dān
 肤寸而合 fū cùn ér hé
-负担舍舟 fu dan she zhou
+负担舍舟 fù dān shě zhōu
 复蹈前辙 fù dǎo qián zhé
 妇道人家 fù dào rén jiā
 赴蹈汤火 fù dǎo tāng huǒ
@@ -8279,7 +8279,7 @@
 黼黻文章 fǔ fú wén zhāng
 富富有余 fù fù yǒu yú
 夫甘都卢 fū gān dōu lú
-弗敢专也 fei gan zhuan ye
+弗敢专也 fú gǎn zhuān yě
 覆公折足 fù gōng shé zú
 抚躬自问 fǔ gōng zì wèn
 负诟忍尤 fù gòu rěn yóu
@@ -8292,7 +8292,7 @@
 浮瓜沈李 fú guā shěn lǐ
 浮光掠影 fú guāng lüè yǐng
 浮光略影 fú guāng lüè yǐng
-浮光跃金 fu guang yue jin
+浮光跃金 fú guāng yuè jīn
 富贵逼人 fù guì bī rén
 簠簋不饬 fǔ guǐ bù chì
 簠簋不饰 fǔ guǐ bù shì
@@ -8378,7 +8378,7 @@
 父母恩勤 fù mǔ ēn qín
 父母之邦 fù mǔ zhī bāng
 傅年父母 fù nián fù mǔ
-扶辇下除 fu nian xia chu
+扶辇下除 fú niǎn xià chú
 服牛乘马 fú niú chéng mǎ
 负弩前驱 fù nǔ qián qū
 负驽前驱 fù nǔ qián qū
@@ -10056,8 +10056,8 @@
 衮衣以归 gǔn yī yǐ guī
 滚圆溜胖 gǔn yuán liū pàng
 国步艰难 guó bù jiān nán
-国不堪贰 guo bu kan er
-果不其然 guǒ bu qí rán
+国不堪贰 guó bù kān èr
+果不其然 guǒ bù qí rán
 国仇家恨 guó chóu jiā hèn
 过此以往 guò cǐ yǐ wǎng
 过从甚密 guò cóng shèn mì
@@ -10240,7 +10240,7 @@
 翰飞戾天 hàn fēi lì tiān
 寒风侵肌 hán fēng qīn jī
 寒腹短识 hán fù duǎn shí
-寒附火者 han fu huo zhe
+寒附火者 hán fù huǒ zhě
 函盖包荒 hán gài bāo huāng
 函盖充周 hán gài chōng zhōu
 函盖乾坤 hán gài qián kūn
@@ -10515,7 +10515,7 @@
 河出伏流 hé chū fú liú
 鹤处鸡群 hè chǔ jī qún
 合胆同心 hé dǎn tóng xīn
-何德堪之 he de kan zi
+何德堪之 hé dé kān zhī
 河东三凤 hé dōng sān fèng
 河东三箧 hé dōng sān qiè
 河东狮吼 hé dōng shī hǒu
@@ -10597,7 +10597,7 @@
 合浦珠还 hé pǔ zhū huán
 何其毒也 hé qí dú yě
 和气生财 hé qì shēng cái
-何其衰也 he qi ai ye
+何其衰也 hé qí shuāi yě
 和气致祥 hé qì zhì xiáng
 呵欠连天 hē qiàn lián tiān
 荷枪实弹 hè qiāng shí dàn
@@ -10826,7 +10826,7 @@
 闳侈不经 hóng chǐ bù jīng
 鸿俦鹤侣 hóng chóu hè lǚ
 红愁绿惨 hóng chóu lǜ cǎn
-弘此远谟 hong chi yuan mo
+弘此远谟 hóng cǐ yuǎn mò
 鸿毳沉舟 hóng cuì chén zhōu
 闳大不经 hóng dà bù jīng
 红得发紫 hóng de fā zǐ
@@ -11299,7 +11299,7 @@
 话里有话 huà lǐ yǒu huà
 画梁雕栋 huà liáng diāo dòng
 化零为整 huà líng wéi zhěng
-骅骝开道 hua liu kai dao
+骅骝开道 huá liú kāi dào
 画龙点睛 huà lóng diǎn jīng
 画龙刻鹄 huà lóng kè hú
 画卵雕薪 huà luǎn diāo xīn
@@ -11771,7 +11771,7 @@
 灰心短气 huī xīn duǎn qì
 灰心槁形 huī xīn gǎo xíng
 蕙心兰质 huì xīn lán zhì
-哕心沥血 yue xīn lì xuè
+哕心沥血 yuě xīn lì xuè
 慧心妙舌 huì xīn miào shé
 慧心巧思 huì xīn qiǎo sī
 灰心丧气 huī xīn sàng qì
@@ -11924,7 +11924,7 @@
 火德星君 huǒ dé xīng jūn
 活动分子 huó dòng fèn zǐ
 或多或少 huò duō huò shǎo
-货而不售 huo er bu shou
+货而不售 huò ér bù shòu
 祸福同门 huò fú tóng mén
 祸福惟人 huò fú wéi rén
 祸福无常 huò fú wú cháng
@@ -12026,7 +12026,7 @@
 活字印刷 huó zì yìn shuā
 积案盈箱 jī àn yíng xiāng
 激昂慷慨 jī áng kāng kǎi
-激昂青云 ji ang qing yun
+激昂青云 jī áng qīng yún
 饥饱劳役 jī bǎo láo yì
 基本词汇 jī běn cí huì
 基本建设 jī běn jiàn shè
@@ -12241,7 +12241,7 @@
 亟疾苛察 jí jí kē chá
 岌岌可危 jí jí kě wēi
 急急忙忙 jí jí máng máng
-汲汲忙忙 ji ji mang mang
+汲汲忙忙 jí jí máng máng
 及笄年华 jí jī nián huá
 叽叽哝哝 jī jī nóng nóng
 咭咭哝哝 jī jī nóng nóng
@@ -12599,7 +12599,7 @@
 积羽沉舟 jī yǔ chén zhōu
 积玉堆金 jī yù duī jīn
 际遇风云 jì yù fēng yún
-积于忽微 ji yu hu wei
+积于忽微 jī yú hū wēi
 击玉敲金 jī yù qiāo jīn
 急于求成 jí yú qiú chéng
 急于事功 jí yú shì gōng
@@ -13276,7 +13276,7 @@
 叫苦连天 jiào kǔ lián tiān
 挢抂过正 jiǎo kuāng guò zhèng
 交梨火枣 jiāo lí huǒ zǎo
-角立杰出 jiao li jie chu
+角立杰出 jiǎo lǐ jié chū
 交詈聚唾 jiāo lì jù tuò
 角里先生 jiǎo lǐ xiān shēng
 脚镣手铐 jiǎo liào shǒu kào
@@ -14056,7 +14056,7 @@
 镜里观花 jìng lǐ guān huā
 荆刘拜杀 jīng liú bài shā
 惊鸾回凤 jīng luán huí fèng
-经纶济世 jing lun ji shi
+经纶济世 jīng lún jì shì
 经纶满腹 jīng lún mǎn fù
 精驴禽兽 jīng lǘ qín shòu
 精美绝伦 jīng měi jué lún
@@ -14185,12 +14185,12 @@
 经验之谈 jīng yàn zhī tán
 敬业乐群 jìng yè yào qún
 精益求精 jīng yì qiú jīng
-精义入神 jing yi ru shen
+精义入神 jīng yì rù shén
 径一周三 jìng yī zhōu sān
 静因之道 jìng yīn zhī dào
 经营惨淡 jīng yíng cǎn dàn
 经营惨澹 jīng yíng cǎn dàn
-静影沉璧 jing ying chen bi
+静影沉璧 jìng yǐng chén bì
 惊愚骇俗 jīng yú hài sú
 镜圆璧合 jìng yuán bì hé
 惊猿脱兔 jīng yuán tuō tù
@@ -14427,7 +14427,7 @@
 举鼎拔山 jǔ dǐng bá shān
 举鼎绝膑 jǔ dǐng jué bìn
 举鼎绝脰 jǔ dǐng jué dòu
-举动荆棘 ju dong jin ji
+举动荆棘 jǔ dòng jīng jí
 举纲持领 jǔ gāng chí lǐng
 局高蹐厚 jú gāo guǎ hòu
 居高临下 jū gāo lín xià
@@ -14491,7 +14491,7 @@
 举世闻名 jǔ shì wén míng
 举世无敌 jǔ shì wú dí
 举世无双 jǔ shì wú shuāng
-具食与乐 ju shi yu le
+具食与乐 jù shí yǔ lè
 举十知九 jǔ shí zhī jiǔ
 举世瞩目 jǔ shì zhǔ mù
 俱收并蓄 jù shōu bìng xù
@@ -14562,7 +14562,7 @@
 居重驭轻 jū zhòng yù qīng
 聚众滋事 jù zhòng zī shì
 居轴处中 jū zhóu chǔ zhōng
-具自陈道 ju zhi cheng dao
+具自陈道 jù zì chén dào
 举足轻重 jǔ zú qīng zhòng
 涓埃之力 juān āi zhī lì
 捐本逐末 juān běn zhú mò
@@ -14795,7 +14795,7 @@
 侃侃訚訚 kǎn kǎn yín yín
 坎坷不平 kǎn kě bù píng
 看破红尘 kàn pò hóng chén
-侃然正色 kan ran zheng she
+侃然正色 kǎn rán zhèng shè
 看人眉睫 kàn rén méi jié
 看人眉眼 kàn rén méi yǎn
 看人说话 kàn rén shuō huà
@@ -14814,7 +14814,7 @@
 刊字匠作 kān zì jiàng zuò
 抗尘走俗 kàng chén zǒu sú
 扛鼎抃牛 gāng dǐng biàn niú
-糠豆不赡 kang dou bu shan
+糠豆不赡 kāng dòu bù shàn
 亢极之悔 kàng jí zhī huǐ
 慷慨悲歌 kāng kǎi bēi gē
 慷慨陈词 kāng kǎi chén cí
@@ -15641,7 +15641,7 @@
 乐乐酡酡 lè lè tuó tuó
 乐利主义 lè lì zhǔ yì
 勒铭燕然 lè míng yàn rán
-了然无闻 le rán wú wén
+了然无闻 liǎo rán wú wén
 乐山爱水 lè shān ài shuǐ
 乐善不倦 lè shàn bù juàn
 乐善好施 lè shàn hào shī
@@ -15896,7 +15896,7 @@
 栗烈觱发 lì liè bì fā
 利令志惛 lì lìng zhì zào
 利令智昏 lì lìng zhì hūn
-哩溜歪斜 li liū wāi xié
+哩溜歪斜 lī liū wāi xié
 离鸾别凤 lí luán bié fèng
 离鸾别鹤 lí luán bié hè
 离鸾别鹄 lí luán bié hú
@@ -16905,7 +16905,7 @@
 龙阳泣鱼 lóng yáng qì yú
 龙阳子弟 lóng yáng zǐ dì
 龙吟虎啸 lóng yīn hǔ xiào
-龙游曲沼 long you qu zhao
+龙游曲沼 lóng yóu qū zhǎo
 龙御上宾 lóng yù shàng bīn
 龙驭上宾 lóng yù shàng bīn
 龙跃凤鸣 lóng yuè fèng míng
@@ -16937,7 +16937,7 @@
 镂冰斸雪 lòu bīng zhú xuě
 镂尘吹影 lòu chén chuī yǐng
 楼船将军 lóu chuán jiāng jūn
-楼船箫鼓 lou chuan xiao gu
+楼船箫鼓 lóu chuán xiāo gǔ
 漏春和尚 lòu chūn hé shàng
 漏洞百出 lòu dòng bǎi chū
 漏脯充饥 lòu fǔ chōng jī
@@ -17240,7 +17240,7 @@
 落汤螃蟹 luò tāng páng xiè
 罗天大醮 luó tiān dà jiào
 落拓不羁 luò tuò bù jī
-落魄不偶 luo tuo bu ou
+落魄不偶 luò tuò bù ǒu
 罗纹结角 luó wén jié jiǎo
 啰巷拽街 luō xiàng zhuài jiē
 捋袖揎拳 luō xiù xuān quán
@@ -17375,7 +17375,6 @@
 马路牙子 mǎ lù yá zǐ
 马鹿异形 mǎ lù yì xíng
 马鹿易形 mǎ lù yì xíng
-吗吗糊糊 ma ma hū hū
 马马虎虎 mǎ mǎ hǔ hǔ
 麻麻糊糊 mā mɑ hū hū
 骂骂括括 mà mà kuò kuò
@@ -17519,7 +17518,7 @@
 谩藏诲盗 màn cáng huì dào
 蔓草难除 màn cǎo nán chú
 满城风雨 mǎn chéng fēng yǔ
-慢弛之阙 man chi zi que
+慢弛之阙 màn chí zhī què
 蛮触相争 mán chù xiāng zhēng
 谩辞哗说 màn cí huá shuō
 满打满算 mǎn dǎ mǎn suàn
@@ -17718,7 +17717,7 @@
 毛毛腾腾 máo máo téng téng
 冒名顶替 mào míng dǐng tì
 冒名接脚 mào míng jiě jiǎo
-貌如其心 mao ru qi xin
+貌如其心 mào rú qí xīn
 茅塞顿开 máo sè dùn kāi
 毛森骨立 máo sēn gǔ lì
 茅室蓬户 máo shì péng hù
@@ -18386,7 +18385,7 @@
 冥顽不灵 míng wán bù líng
 名闻利养 míng wén lì yǎng
 名闻遐迩 míng wén xiá ěr
-名我固当 ming wo gu dang
+名我固当 míng wǒ gù dāng
 名下无虚 míng xià wú xū
 鸣弦揆日 míng xián kuí rì
 明效大验 míng xiào dà yàn
@@ -18821,7 +18820,7 @@
 耐辱居士 nài rǔ jū shì
 奶声奶气 nǎi shēng nǎi qì
 乃文乃武 nǎi wén nǎi wǔ
-乃我困汝 nai wo kun nu
+乃我困汝 nǎi wǒ kùn rǔ
 乃武乃文 nǎi wǔ nǎi wén
 耐心耐意 nài xīn nài yì
 乃心王室 nǎi xīn wáng shì
@@ -18872,7 +18871,7 @@
 难解难入 nán jiě nán rù
 难解之谜 nán jiě zhī mí
 南金东箭 nán jīn dōng jiàn
-难进易退 nan jin yi tui
+难进易退 nán jìn yì tuì
 南菁书院 nán jīng shū yuàn
 南橘北枳 nán jú běi zhǐ
 南柯太守 nán kē tài shǒu
@@ -18969,7 +18968,7 @@
 挠直为曲 náo zhí wéi qū
 脑子生锈 nǎo zi shēng xiù
 讷口少言 nè kǒu shǎo yán
-呢呢痴痴 ne ne chī chī
+呢呢痴痴 ní ní chī chī
 讷言敏行 nè yán mǐn xíng
 内查外调 nèi chá wài diào
 内重外轻 nèi zhòng wài qīng
@@ -19493,7 +19492,7 @@
 磐石之安 pán shí zhī ān
 盘石之固 pán shí zhī gù
 磐石之固 pán shí zhī gù
-盘水加剑 pan shui jia jian
+盘水加剑 pán shuǐ jiā jiàn
 蟠桃胜会 pán táo shèng huì
 攀藤附葛 pān téng fù gě
 攀藤揽葛 pān téng lǎn gě
@@ -20765,7 +20764,7 @@
 前脚后脚 qián jiǎo hòu jiǎo
 潜蛟困凤 qián jiāo kùn fèng
 前街后巷 qián jiē hòu xiàng
-千金比屋 qian jing bi wu
+千金比屋 qiān jīn bǐ wū
 千金弊帚 qiān jīn bì zhǒu
 千金敝帚 qiān jīn bì zhǒu
 前襟后裾 qián jīn hòu jū
@@ -21564,9 +21563,9 @@
 青蝇点玉 qīng yíng diǎn yù
 青蝇吊客 qīng yíng diào kè
 青蝇染白 qīng yíng rǎn bái
-清莹秀澈 qing yin xou che
+清莹秀澈 qīng yíng xiù chè
 青蝇之吊 qīng yíng zhī diào
-请由此亡 qing you chi wang
+请由此亡 qǐng yóu cǐ wáng
 情有可原 qíng yǒu kě yuán
 情逾骨肉 qíng yú gǔ ròu
 轻于鸿毛 qīng yú hóng máo
@@ -21574,7 +21573,7 @@
 青云独步 qīng yún dú bù
 青云万里 qīng yún wàn lǐ
 青云直上 qīng yún zhí shàng
-情在骏奔 qing zhai jun ben
+情在骏奔 qíng zhài jùn bēn
 青毡故物 qīng zhān gù wù
 情真意切 qíng zhēn yì qiè
 青枝绿叶 qīng zhī lǜ yè
@@ -21679,7 +21678,7 @@
 穷途落魄 qióng tú luò tuò
 穷途末路 qióng tú mò lù
 穷途之哭 qióng tú zhī kū
-穷亡解沮 qing wang jie ju
+穷亡解沮 qióng wáng jiě jǔ
 穷相骨头 qióng xiāng gú tou
 跫响空谷 qióng xiǎng kōng gǔ
 穷巷陋室 qióng xiàng lòu shì
@@ -21821,7 +21820,7 @@
 取乱存亡 qǔ luàn cún wáng
 取乱侮亡 qǔ luàn wǔ wáng
 曲眉丰颊 qǔ méi fēng jiá
-取民愈广 qu min yu guang
+取民愈广 qǔ mín yù guǎng
 去末归本 qù mò guī běn
 瞿目缩舌 qú mù suō shé
 阒其无人 qù qí wú rén
@@ -22586,7 +22585,7 @@
 如不胜衣 rú bù shèng yī
 如操左券 rú cāo zuǒ quàn
 如潮涌至 rú cháo yǒng zhì
-汝成人耶 nu cheng ren ye
+汝成人耶 rǔ chéng rén yē
 如痴如狂 rú chī rú kuáng
 如痴如梦 rú chī rú mèng
 如痴如醉 rú chī rú zuì
@@ -22802,7 +22801,7 @@
 若出一辙 ruò chū yī zhé
 若存若亡 ruò cún ruò wáng
 若大若小 ruò dà ruò xiǎo
-弱管轻丝 ruo guan qing si
+弱管轻丝 ruò guǎn qīng sī
 若合符节 ruò hé fú jié
 若即若离 ruò jí ruò lí
 若离若即 ruò lí ruò jí
@@ -23189,7 +23188,7 @@
 杀马毁车 shā mǎ huǐ chē
 纱帽圆领 shā mào yuán lǐng
 傻眉楞眼 shǎ méi lèng yǎn
-沙鸥翔集 sha ou xiang ji
+沙鸥翔集 shā ōu xiáng jí
 杀妻求将 shā qī qiú jiàng
 杀气腾腾 shā qì téng téng
 杀人放火 shā rén fàng huǒ
@@ -23250,7 +23249,7 @@
 搧风点火 shān fēng diǎn huǒ
 煽风点火 shān fēng diǎn huǒ
 山肤水豢 shān fū shuǐ huàn
-山复整妆 shan fu zheng zhuang
+山复整妆 shān fù zhěng zhuāng
 山旮旯儿 shān gā lá ér
 山旮旯子 shān gā lá zǐ
 山高海深 shān gāo hǎi shēn
@@ -23503,7 +23502,7 @@
 声气相通 shēng qì xiāng tōng
 声气相投 shēng qì xiāng tóu
 绳其祖武 shéng qí zǔ wǔ
-绳愆纠缪 sheng qian jiu miu
+绳愆纠缪 shéng qiān jiū miù
 绳愆纠谬 shéng qiān jiū miù
 绳愆纠违 shéng qiān jiū wéi
 声情并茂 shēng qíng bìng mào
@@ -23734,7 +23733,7 @@
 筮短龟长 shì duǎn guī cháng
 虱多不痒 shī duō bù yǎng
 识多才广 shí duō cái guǎng
-拾掇无遗 shi duo wu yi
+拾掇无遗 shí duo wú yí
 十恶不赦 shí è bù shè
 十恶五逆 shí è wǔ nì
 十二博士 shí èr bó shì
@@ -24480,7 +24479,7 @@
 疏忽职守 shū hū zhí shǒu
 书画卯酉 shū huà mǎo yǒu
 数黄道白 shù huáng dào bái
-数黄道黑 shu huang dao hei
+数黄道黑 shǔ huáng dào hēi
 鼠迹狐踪 shǔ jì hú zōng
 束肩敛息 shù jiān liǎn xī
 书柬图章 shū jiǎn tú zhāng
@@ -24779,7 +24778,7 @@
 水中捞月 shuǐ zhōng lāo yuè
 水中着盐 shuǐ zhōng zhuó yán
 水中著盐 shuǐ zhōng zhuó yán
-水中捉月 shui zhong zhuo yue
+水中捉月 shuǐ zhōng zhuō yuè
 顺非而泽 shùn fēi ér zé
 顺风扯帆 shùn fēng chě fān
 顺风吹火 shǔn fēng chuī huǒ
@@ -24929,7 +24928,7 @@
 死而不朽 sǐ ér bù xiǔ
 死而复生 sǐ ér fù shēng
 死而后已 sǐ ér hòu yǐ
-死而死矣 si er si yi
+死而死矣 sǐ ér sǐ yǐ
 死而无悔 sǐ ér wú huǐ
 死而无怨 sǐ ér wú yuàn
 丝发之功 sī fā zhī gōng
@@ -25033,7 +25032,7 @@
 死声啕气 sǐ shēng táo qì
 死声淘气 sǐ shēng táo qì
 四时八节 sì shí bā jié
-四时充美 si shi chong mei
+四时充美 sì shí chōng měi
 似是而非 sì shì ér fēi
 私事官雠 sī shì guān chóu
 四世三公 sì shì sān gōng
@@ -25051,7 +25050,7 @@
 死死平平 sǐ sǐ píng píng
 丝丝入扣 sī sī rù kòu
 斯斯文文 sī sī wén wén
-思所逐之 si shuo zhu zi
+思所逐之 sī suǒ zhú zhī
 厮抬厮敬 sī tái sī jìng
 斯抬斯敬 sī tái sī jìng
 四体百骸 sì tǐ bǎi hái
@@ -25334,7 +25333,7 @@
 随俗沉浮 suí sú chén fú
 随俗浮沉 suí sú fú chén
 随俗沈浮 suí sú shěn fú
-随俗雅化 shui shu ya hua
+随俗雅化 suí sú yǎ huà
 睢睢盱盱 huī huī xū xū
 碎瓦颓垣 suì wǎ tuí yuán
 随文释义 suí wén shì yì
@@ -25352,7 +25351,7 @@
 随行逐队 suí xíng zhú duì
 岁序更新 suì xù gēng xīn
 随意一瞥 suí yì yī piē
-虽有搞暴 shui you gao pu
+虽有槁暴 suī yòu gǎo pù
 随寓而安 suí yù ér ān
 随遇而安 suí yù ér ān
 碎玉零玑 suì yù líng jī
@@ -25472,7 +25471,7 @@
 太皇太后 tài huáng tài hòu
 泰极而否 tài jí ér pǐ
 抬脚动手 tái jiǎo dòng shǒu
-泰来否极 tai lái fǒu jí
+泰来否极 tài lái pǐ jí
 泰来否往 tài lái pǐ wǎng
 汰劣留良 tài liè liú liáng
 太平歌词 tài píng gē cí
@@ -25490,7 +25489,7 @@
 泰山府君 tài shān fǔ jūn
 泰山鸿毛 tài shān hóng máo
 泰山梁木 tài shān liáng mù
-泰山盘石 tai shān pán shí
+泰山盘石 tài shān pán shí
 泰山磐石 tài shān pán shí
 泰山其颓 tài shān qí tuí
 泰山石刻 tài shān shí kè
@@ -25870,7 +25869,7 @@
 体元居正 tǐ yuán jū zhèng
 体元立极 tǐ yuán lì jí
 殢云尤雨 tì yún yóu yǔ
-天宝当年 tian bao dang nian
+天宝当年 tiān bǎo dāng nián
 天保九如 tiān bǎo jiǔ rú
 天崩地坼 tiān bēng dì chè
 天崩地解 tiān bēng dì jiě
@@ -26331,7 +26330,7 @@
 铜筋铁骨 tóng jīn tiě gǔ
 铜筋铁肋 tóng jīn tiě lèi
 同考试官 tóng kǎo shì guān
-痛可言邪 tong ke yan ye
+痛可言邪 tòng kě yán yé
 痛哭流涕 tòng kū liú tì
 痛快淋漓 tòng kuài lín lí
 同类相从 tóng lèi xiāng cóng
@@ -26648,7 +26647,7 @@
 吐火罗语 tǔ huǒ luó yǔ
 土鸡瓦狗 tǔ jī wǎ gǒu
 土鸡瓦犬 tǔ jī wǎ quǎn
-兔角龟毛 tu jiao gui mao
+兔角龟毛 tù jiǎo guī máo
 兔角牛翼 tù jiǎo niú yì
 土阶茅茨 tǔ jiē máo cí
 土阶茅屋 tǔ jiē máo wū
@@ -26737,7 +26736,7 @@
 推本溯源 tuī běng sù yuán
 退避三舍 tuì bì sān shè
 推波助澜 tuī bō zhù lán
-退步抽身 tui bu chou sheng
+退步抽身 tuì bù chōu shēn
 退藏于密 tuì cáng yú mì
 推陈出新 tuī chén chū xīn
 推陈致新 tuī chén zhì xīn
@@ -27475,7 +27474,7 @@
 违条舞法 wéi tiáo wǔ fǎ
 味同嚼蜡 wèi tóng jiáo là
 畏头畏尾 wèi tóu wèi wěi
-为万安计 wei wan an ji
+为万安计 wéi wàn ān jì
 魏王大瓠 wèi wáng dà hù
 危亡关头 wēi wáng guān tóu
 威望素着 wēi wàng sù zhù
@@ -27487,7 +27486,7 @@
 巍巍荡荡 wēi wēi dàng dàng
 娓娓动听 wěi wěi dòng tīng
 娓娓而谈 wěi wěi ér tán
-微为繁富 wei wei fan fu
+微为繁富 wēi wéi fán fù
 唯唯否否 wěi wěi fǒu fǒu
 嵬嵬赫赫 wéi wéi hè hè
 畏威怀德 wèi wēi huái dé
@@ -27545,7 +27544,7 @@
 谓予不信 wèi yú bù xìn
 未雨绸缪 wèi yǔ chóu móu
 危于累卵 wēi yú lěi luǎn
-未与人接 wei yu ren jie
+未与人接 wèi yú rén jiē
 为渊驱鱼 wèi yuān qū yú
 危在旦夕 wēi zài dàn xī
 威震天下 wēi zhèn tiān xià
@@ -27781,7 +27780,7 @@
 握拳透爪 wò quán tòu zhǎo
 卧褥香炉 wò rù xiāng lú
 卧苫枕块 wò shān zhěn kuài
-蜗舍荆扉 wo she jing fei
+蜗舍荆扉 wō shě jīng fēi
 握蛇骑虎 wò shé qí hǔ
 握手成交 wò shǒu chéng jiāo
 握手言欢 wò shǒu yán huān
@@ -27952,7 +27951,7 @@
 五合六聚 wǔ hé liù jù
 无何有乡 wú hé yǒu xiāng
 乌合之众 wū hé zhī zhòng
-无恒安息 wu heng an xi
+无恒安息 wú héng ān xī
 五侯九伯 wǔ hòu jiǔ bó
 五侯蜡烛 wǔ hòu là zhú
 五侯七贵 wǔ hòu qī guì
@@ -28055,7 +28054,7 @@
 无孔不入 wú kǒng bù rù
 无空不入 wú kōng bù rù
 无孔不钻 wú kǒng bù zuàn
-无寇暴死 wu kou bào shi
+无寇暴死 wú kòu bào sǐ
 污口横蔑 wū kǒu héng miè
 五口通商 wǔ kǒu tōng shāng
 无愧衾影 wú kuì qīn yǐng
@@ -28197,7 +28196,7 @@
 无时无刻 wú shí wú kè
 无始无终 wú shǐ wú zhōng
 吴市之箫 wú shì zhī xiāo
-无使滋蔓 wu shi zi man
+无使滋蔓 wú shǐ zī màn
 无师自通 wú shī zì tōng
 污手垢面 wū shǒu gòu miàn
 侮手侮脚 wǔ shǒu wǔ jiǎo
@@ -28323,7 +28322,7 @@
 无休无了 wú xiū wú le
 五虚六耗 wǔ xū liù hào
 无须之祸 wú xū zhī huò
-无涯之戚 wu ya zi qi
+无涯之戚 wú yá zhī qì
 五言长城 wǔ yán cháng chéng
 乌焉成马 wū yān chéng mǎ
 污言秽语 wū yán huì yǔ
@@ -28405,7 +28404,7 @@
 五浊恶世 wǔ zhuó è shì
 五子登科 wǔ zǐ dēng kē
 恶紫夺朱 wù zǐ duó zhū
-吾自有处 wu zi you chu
+吾自有处 wú zì yǒu chǔ
 无踪无影 wú zōng wú yǐng
 无足轻重 wú zú qīng zhòng
 无足重轻 wú zú zhòng qīng
@@ -28815,7 +28814,7 @@
 闲愁万种 xián chóu wàn zhǒng
 显处视月 xiǎn chǔ shì yuè
 现打不赊 xiàn dǎ bù shē
-先代所美 xian dai shuo mei
+先代所美 xiān dài suǒ měi
 衔胆栖冰 xián dǎn qī bīng
 险道神将 xiǎn dào shén jiàng
 贤德夫人 xián dé fū rén
@@ -29038,7 +29037,7 @@
 祥风时雨 xiáng fēng shí yǔ
 相风铜乌 xiāng fēng tóng wū
 相逢狭路 xiāng féng xiá lù
-降服而囚 xiang fu er qiu
+降服而囚 xiáng fú ér qiú
 相辅而行 xiāng fǔ ér xíng
 相辅相成 xiāng fǔ xiāng chéng
 象耕鸟耘 xiàng gēng niǎo yún
@@ -29091,7 +29090,7 @@
 相门有相 xiàng mén yǒu xiàng
 像模像样 xiàng mó xiàng yàng
 相女配夫 xiàng nǚ pèi fū
-香培玉琢 xiang pei yu zuo
+香培玉琢 xiāng péi yù zhuó
 橡皮钉子 xiàng pí dìng zǐ
 向平之原 xiàng píng zhī yuán
 向平之愿 xiàng píng zhī yuàn
@@ -29833,7 +29832,7 @@
 行崄侥幸 xíng xiǎn jiǎo xìng
 行险侥幸 xíng xiǎn jiǎo xìng
 行险徼幸 xíng xiǎn jiǎo xìng
-行香挂牌 xing xiang gua pai
+行香挂牌 xíng xiāng guà pái
 形销骨立 xíng xiāo gǔ lì
 星星点点 xīng xīng diǎn diǎn
 星行电征 xīng xíng diàn zhēng
@@ -29945,7 +29944,7 @@
 胸有丘壑 xiōng yǒu qiū hè
 胸有邱壑 xiōng yǒu qiū hè
 胸有悬镜 xiōng yǒu xuán jìng
-兄终弟及 xiong zhong di ji
+兄终弟及 xiōng zhōng dì jí
 胸中甲兵 xiōng zhōng jiǎ bīng
 胸中垒块 xiōng zhōng lěi kuài
 胸中鳞甲 xiōng zhōng lín jiǎ
@@ -30038,7 +30037,7 @@
 魆风骤雨 zhuō fēng zhòu yǔ
 续凫断鹤 xù fú duàn hè
 续凫截鹤 xù fú jié hè
-虚构无端 xu gou wu duan
+虚构无端 xū gòu wú duān
 絮果兰因 xù guǒ lán yīn
 嘘寒问暖 xū hán wèn nuǎn
 盱衡厉色 xū héng lì sè
@@ -30068,7 +30067,7 @@
 畜妻养子 xù qī yǎng zǐ
 虚情假意 xū qíng jiǎ yì
 须髯如戟 xū rán rú jǐ
-须髯若神 xu ran ruo sheng
+须髯若神 xū rán ruò shén
 旭日初升 xù rì chū shēng
 旭日东升 xù rì dōng shēng
 煦色韶光 xù sè sháo guāng
@@ -30721,7 +30720,7 @@
 眼皮底下 yǎn pí dǐ xià
 眼皮子高 yǎn pí zi gāo
 眼皮子浅 yǎn pí zi qiǎn
-言气卑弱 yan qi bei ruo
+言气卑弱 yán qì bēi ruò
 掩其不备 yǎn qí bù bèi
 岩栖谷隐 yán qī gǔ yǐn
 岩栖谷饮 yán qī gǔ yǐn
@@ -30816,7 +30815,7 @@
 言笑自如 yán xiào zì rú
 言笑自若 yán xiào zì ruò
 言信行果 yán xìn xíng guǒ
-言信行直 yan xin xing zhi
+言信行直 yán xìn xíng zhí
 言行抱一 yán xíng bào yī
 言行不贰 yán xíng bù èr
 言行不符 yán xíng bù fú
@@ -30924,7 +30923,7 @@
 羊肚手巾 yáng dù shǒu jīn
 养儿备老 yǎng ér bèi lǎo
 养儿防老 yǎng ér fáng lǎo
-仰而赋诗 yang er fu shi
+仰而赋诗 yǎng ér fù shī
 扬幡招魂 yáng fān zhāo hún
 杨妃春睡 yáng fēi chūn shuì
 杨妃山茶 yáng fēi shān chá
@@ -30985,7 +30984,7 @@
 仰面唾天 yǎng miàn tuò tiān
 扬名四海 yáng míng sì hǎi
 扬名显亲 yáng míng xiǎn qīn
-痒磨树者 yang mo shu zhe
+痒磨树者 yǎng mó shù zhě
 养女调妇 yǎng nǚ diào fù
 扬葩振藻 yáng pā zhèn zǎo
 羊破菜园 yáng pò cài yuán
@@ -31208,7 +31207,7 @@
 爷饭娘羹 yé fàn niáng gēng
 爷羹娘饭 yé gēng niáng fàn
 叶公好龙 yè gōng hào lóng
-夜光之璧 ye guang zi bi
+夜光之璧 yè guāng zhī bì
 野鹤步罡 yě hè bù gāng
 野鹤孤云 yě hè gū yún
 野鹤闲云 yě hè xián yún
@@ -31270,7 +31269,7 @@
 一般见识 yī bān jiàn shí
 一斑窥豹 yī bān kuī bào
 一板三眼 yī bǎn sān yǎn
-一般无二 yi ban wu er
+一般无二 yī bān wú èr
 一瓣心香 yī bàn xīn xiāng
 一班一辈 yī bān yī bèi
 一班一级 yī bān yī jí
@@ -31748,7 +31747,7 @@
 衣锦荣归 yì jǐn róng guī
 衣锦尚絅 yì jǐn shàng jiōng
 衣锦食肉 yì jǐn shí ròu
-以尽吾齿 yi jin wu ci
+以尽吾齿 yǐ jìn wú chǐ
 衣锦夜行 yì jǐn yè xíng
 衣锦夜游 yì jǐn yè yóu
 衣锦昼行 yì jǐn zhòu xíng
@@ -32339,7 +32338,7 @@
 一往无前 yī wǎng wú qián
 一网无遗 yī wǎng wú yí
 一望无垠 yī wàng wú yín
-意望已过 yi wang yi guo
+意望已过 yì wàng yǐ guò
 一往直前 yī wǎng zhí qián
 以为后图 yǐ wéi hòu tú
 一苇可航 yī wěi kě háng
@@ -32868,7 +32867,7 @@
 淫朋密友 yín péng mì yǒu
 淫朋狎友 yín péng xiá yǒu
 银屏金屋 yín píng jīn wū
-因其固然 yin qi gu ran
+因其固然 yīn qí gù rán
 崟崎磊落 yín qí lěi luò
 崟崎历落 yín qí lì luò
 喑气吞声 yīn qì tūn shēng
@@ -32931,7 +32930,7 @@
 喑呜叱咤 yīn wū chì zhà
 因乌及屋 yīn wū jí wū
 引物连类 yǐn wù lián lèi
-因袭陈规 yin xi chen gui
+因袭陈规 yīn xí chén guī
 茵席之臣 yīn xí zhī chén
 引线穿针 yǐn xiàn chuān zhēn
 因小失大 yīn xiǎo shī dà
@@ -32999,7 +32998,7 @@
 隐约其辞 yǐn yuē qí cí
 氤氲大使 yīn yūn dà shǐ
 氤氲使者 yīn yūn shǐ zhě
-隐占身体 yin zhan shen qi
+隐占身体 yǐn zhàn shēn tǐ
 饮鸩解渴 yǐn zhèn jiě kě
 引针拾芥 yǐn zhēn shí jiè
 饮鸩止渴 yǐn zhèn zhǐ kě
@@ -33186,7 +33185,7 @@
 英英玉立 yīng yīng yù lì
 盈盈在目 yíng yíng zài mù
 营营逐逐 yíng yíng zhú zhú
-英勇善战 ying yǒng shàn zhàn
+英勇善战 yīng yǒng shàn zhàn
 应有尽有 yīng yǒu jìn yǒu
 硬语盘空 yìng yǔ pán kōng
 映月读书 yìng yuè dú shū
@@ -33774,7 +33773,7 @@
 玉楼赴召 yù lóu fù zhào
 玉楼金殿 yù lóu jīn diàn
 玉楼受召 yù lóu shòu zhào
-玉漏犹滴 yu lou you di
+玉漏犹滴 yù lòu yóu dī
 鱼鲁帝虎 yú lǔ dì hǔ
 雨露之恩 yǔ lù zhī ēn
 舆论哗然 yú lùn huá rán
@@ -33797,7 +33796,7 @@
 语妙绝伦 yǔ miào jué lún
 余妙绕梁 yú miào rào liáng
 语妙天下 yǔ miào tiān xià
-愚民安知 yu min an zhi
+愚民安知 yú mín ān zhī
 与民除害 yǔ hǔ chú hài
 与民更始 yǔ rén gēng shǐ
 与民同乐 yǔ mín tóng lè
@@ -34887,7 +34886,7 @@
 贼走关门 zéi zǒu guān mén
 谮下谩上 zèn xià mán shàng
 憎爱分明 zēng ài fēn míng
-曾不惨然 zeng bu chan ran
+曾不惨然 céng bù cǎn rán
 甑尘釜鱼 zēng chén fǔ yú
 缯贩之士 zēng fàn zhī shì
 综光瓦亮 zèng guāng wǎ liàng
@@ -35147,7 +35146,7 @@
 遮地盖天 zhē dì gài tiān
 遮地漫天 zhē dì màn tiān
 折鼎覆餗 zhé dǐng fù sù
-折而族之 zhe er zu zi
+折而族之 zhé ér zú zhī
 遮风挡雨 zhē fēng dǎng yǔ
 折槁振落 zhé gǎo zhèn luò
 辙涸羁臣 zhé hé jī chén
@@ -35494,7 +35493,7 @@
 枝布叶分 zhī bù yè fēn
 芝残蕙焚 zhī cán huì fén
 智藏瘝在 zhì cáng guān zài
-芝草无根 zhi cao wu geng
+芝草无根 zhī cǎo wú gēn
 支策据梧 zhī cè jù wú
 至诚高节 zhì chéng gāo jié
 咫尺千里 zhǐ chǐ qiān lǐ
@@ -36137,7 +36136,7 @@
 中原麟凤 zhōng yuán lín fèng
 众怨之的 zhòng yuàn zhī dì
 中原逐鹿 zhōng yuán zhú lù
-重增其放 chong zhen qi fang
+重增其放 zhòng zēng qí fàng
 忠贞不渝 zhōng zhēn bù yú
 众志成城 zhòng zhì chéng chéng
 重纸累札 zhòng zhǐ lèi zhá
@@ -36278,7 +36277,7 @@
 柱后惠文 zhù hòu huì wén
 拄笏看山 zhǔ hù kàn shān
 拄笏西山 zhǔ hù xī shān
-助画方略 zhu hua fang lue
+助画方略 Zhù huà fāng lüè
 珠还合浦 zhū huán hé pǔ
 珠辉玉丽 zhū huī yù lì
 铢积寸累 zhū jī cùn lěi
@@ -36712,7 +36711,7 @@
 卓然不群 zhuó rán bù qún
 着人先鞭 zhuó rén xiān biān
 捉生替死 zhuō shēng tì sǐ
-拙手笨脚 zhuo  shou ben jiao
+拙手笨脚 zhuō shǒu bèn jiǎo
 着手成春 zhuó shǒu chéng chūn
 拙手钝脚 zhuō shǒu dùn jiǎo
 着手回春 zhuó shǒu huí chūn
@@ -37115,7 +37114,7 @@
 罪该万死 zuì gāi wàn sǐ
 罪加一等 zuì jiā yī děng
 醉酒饱德 zuì jiǔ bǎo dé
-最可觞客 zhui ke shang ke
+最可觞客 zuì kě shāng kè
 嘴快舌长 zuǐ kuài shé cháng
 罪魁祸首 zuì kuí huò shǒu
 嘴里牙多 zuǐ lǐ yá duō

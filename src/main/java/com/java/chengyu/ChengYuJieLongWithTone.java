@@ -18,7 +18,6 @@ import com.java.chengyu.shared.fileutils.parsers.StringSource;
 import com.java.chengyu.shared.pronunciation.ChengYu;
 import com.java.chengyu.shared.pronunciation.Dictionary;
 import com.java.chengyu.shared.pronunciation.PinYin;
-import com.java.chengyu.shared.pronunciation.Pronunciation;
 
 public class ChengYuJieLongWithTone
 {

@@ -38,7 +38,7 @@ public class ConvertPinYinFormat
    private static String towardConverter(String path, PinYinParseResult result)
    {
       // e1 bao3 zhi1 gong1 -> ē bǎo zhī gōng
-      String raw1 = FileUtils.readStringFromLocalFile(path, "GBK");
+      String raw1 = FileUtils.readStringFromLocalFile(path, "UTF-8");
       StringBuffer sb = new StringBuffer();
       if (raw1 != null)
       {
@@ -69,7 +69,7 @@ public class ConvertPinYinFormat
    private static String backwardConverter(String path, PinYinParseResult result)
    {
       // ē bǎo zhī gōng -> e1 bao3 zhi1 gong1
-      String raw2 = FileUtils.readStringFromLocalFile(path, "GBK");
+      String raw2 = FileUtils.readStringFromLocalFile(path, "UTF-8");
       Collection<PinYin> en = result.getAllItems();
       HashMap<String, String> map = new HashMap<String, String>();
       Iterator<PinYin> it = en.iterator();
@@ -141,7 +141,7 @@ public class ConvertPinYinFormat
 
       try
       {
-         FileUtils.writeStringToLocalFile("chengyu_tone.txt", backwardConverter("./chengyu.txt", result),
+         FileUtils.writeStringToLocalFile("chengyu_tone.txt", backwardConverter("./chengyu_utf8.txt", result),
                "UTF-8");
       }
       catch (IOException e)

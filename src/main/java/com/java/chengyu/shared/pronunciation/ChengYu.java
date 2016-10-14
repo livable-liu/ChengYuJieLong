@@ -27,6 +27,11 @@ public class ChengYu
       return charactors.get(charactors.size() - 1).getPronunciation();
    }
    
+   public List<Charactor> getCharactors()
+   {
+      return charactors;
+   }
+   
    public String toString()
    {
       StringBuilder sb = new StringBuilder();

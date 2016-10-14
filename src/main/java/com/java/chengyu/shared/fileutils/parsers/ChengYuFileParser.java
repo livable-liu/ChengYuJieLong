@@ -58,14 +58,8 @@ public class ChengYuFileParser implements Parser
          {
             List<Charactor> charactors = new ArrayList<Charactor>();
             String tmp = source.substring(start);
-            List<String> chengyuList = new ArrayList<String>();
-            List<PinYin> pinyinList = new ArrayList<PinYin>();
             String[] array = tmp.split(splitter);
             String[] chengyuStr = array[0].trim().split("");
-            for (int i = 0; i < chengyuStr.length; i ++)
-            {
-               chengyuList.add(chengyuStr[i]);
-            }
             for (int i = 1; i < array.length; i ++)
             {
                PinYin pinyin = dict.getPinYinFromRawDisplay(array[i]);

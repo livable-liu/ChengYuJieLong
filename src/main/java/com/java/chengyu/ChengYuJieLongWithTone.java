@@ -18,15 +18,16 @@ import com.java.chengyu.shared.fileutils.parsers.StringSource;
 import com.java.chengyu.shared.pronunciation.ChengYu;
 import com.java.chengyu.shared.pronunciation.Dictionary;
 import com.java.chengyu.shared.pronunciation.PinYin;
+import com.java.chengyu.shared.pronunciation.Pronunciation;
 
-public class ChengYuJieLong
+public class ChengYuJieLongWithTone
 {
    
    static final Logger FUNCTION = Logger.getLogger("FUNCTION");
    
    public static void main(String[] args)
    {
-      System.out.println("Enter ChengYuJieLong!");
+      System.out.println("Enter ChengYuJieLongWithTone!");
       FUNCTION.info("Enter parse ChengYu file!");
       PropertyConfigurator.configure("./src/main/java/log4j.properties");
       PropertyConfigurator.configureAndWatch("./src/main/java/log4j.properties", 60000L);
@@ -45,13 +46,11 @@ public class ChengYuJieLong
       FUNCTION.info("Finish parse ChengYu file!");
       
       //Use floyd-warshall algorithm
-      //fW with no tone
+      //fW with tone
       FloydWallshall fW = new FloydWallshall();
-      int M = result.getSize();// edge count
-      int N = pinYinDic.size(); // node count
       
       Collection<PinYin> pinyins = pinyinRes.getAllItems();
-      Map<Integer, PinYin> index2pinyin = new HashMap<Integer, PinYin>();
+      Map<Integer, String> index2pinyin = new HashMap<Integer, String>();
       Map<String, Integer> pinyin2Index = new HashMap<String, Integer>();
       
       Iterator<PinYin> pinyinIt = pinyins.iterator();
@@ -59,10 +58,19 @@ public class ChengYuJieLong
       while (pinyinIt.hasNext())
       {
          PinYin pinyin = pinyinIt.next();
-         index2pinyin.put(index, pinyin);
-         pinyin2Index.put(pinyin.getBase(), index);
-         index ++;
+         for (int i = 0; i <= 4; i ++)
+         {
+            if (pinyin.getByIndex(i) != null)
+            {
+               index2pinyin.put(index, pinyin.getByIndex(i));
+               pinyin2Index.put(pinyin.getByIndex(i), index);
+               index ++;
+            }
+         }
       }
+      
+      int M = result.getSize();// edge count
+      int N = index; // node count
       
       for (int i = 1; i <= N; i ++)
       {
@@ -81,8 +89,16 @@ public class ChengYuJieLong
          while (its.hasNext())
          {
             ChengYu chengyu = its.next();
-            fW.f[pinyin2Index.get(chengyu.getFirstPronunciation().getPinYin().getBase())][pinyin2Index.get(chengyu.getLastPronunciation().getPinYin().getBase())] = 1;
-            fW.pMap[pinyin2Index.get(chengyu.getFirstPronunciation().getPinYin().getBase())][pinyin2Index.get(chengyu.getLastPronunciation().getPinYin().getBase())] = chengyu;
+            try
+            {
+               fW.f[pinyin2Index.get(chengyu.getFirstPronunciation().getDisplay())][pinyin2Index.get(chengyu.getLastPronunciation().getDisplay())] = 1;
+               fW.pMap[pinyin2Index.get(chengyu.getFirstPronunciation().getDisplay())][pinyin2Index.get(chengyu.getLastPronunciation().getDisplay())] = chengyu;
+            }
+            catch (Exception e)
+            {
+               System.out.println(chengyu);
+               e.printStackTrace();
+            }
          }
       }
       
@@ -91,28 +107,28 @@ public class ChengYuJieLong
       //Query jielong
       System.out.println();
       //分-> 秒
-      fW.printPath(pinyin2Index.get("fen"), pinyin2Index.get("miao"));
+      fW.printPath(pinyin2Index.get("fēn"), pinyin2Index.get("miǎo"));
       System.out.println();
       //日 -> 月
-      fW.printPath(pinyin2Index.get("ri"), pinyin2Index.get("yue"));
+      fW.printPath(pinyin2Index.get("rì"), pinyin2Index.get("yuè"));
       System.out.println();
       //南 -> 北
-      fW.printPath(pinyin2Index.get("nan"), pinyin2Index.get("bei"));
+      fW.printPath(pinyin2Index.get("nán"), pinyin2Index.get("běi"));
       System.out.println();
       //男 -> 女
-      fW.printPath(pinyin2Index.get("nan"), pinyin2Index.get("nü"));
+      fW.printPath(pinyin2Index.get("nán"), pinyin2Index.get("nǚ"));
       System.out.println();
       //阿 -> 作
-      fW.printPath(pinyin2Index.get("a"), pinyin2Index.get("zuo"));
+      fW.printPath(pinyin2Index.get("ā"), pinyin2Index.get("zuò"));
       System.out.println();
       //哥 -> 弟
-      fW.printPath(pinyin2Index.get("ge"), pinyin2Index.get("di"));
+      fW.printPath(pinyin2Index.get("gē"), pinyin2Index.get("dì"));
       System.out.println();
       //山 -> 水
-      fW.printPath(pinyin2Index.get("shan"), pinyin2Index.get("shui"));
+      fW.printPath(pinyin2Index.get("shān"), pinyin2Index.get("shuǐ"));
       System.out.println();
       //坐 -> 末
-      fW.printPath(pinyin2Index.get("zuo"), pinyin2Index.get("mo"));
+      fW.printPath(pinyin2Index.get("zuò"), pinyin2Index.get("mò"));
       System.out.println();
       
       
@@ -122,14 +138,14 @@ public class ChengYuJieLong
          {
             if (fW.f[i][j] > 4 && fW.f[i][j] != fW.INF)
             {
-               System.out.print("From " + index2pinyin.get(i).getBase() + " To " + index2pinyin.get(j).getBase());
+               System.out.print("From " + index2pinyin.get(i) + " To " + index2pinyin.get(j));
                fW.printPath(i, j);
                System.out.println();
             }
          }
       }
       
-      System.out.println("Leave ChengYuJieLong!");
+      System.out.println("Leave ChengYuJieLongWithTone!");
    }
 
 }

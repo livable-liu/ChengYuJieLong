@@ -2,7 +2,6 @@ package com.java.chengyu;
 
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Iterator;
@@ -16,13 +15,12 @@ import com.java.chengyu.shared.fileutils.parsers.ChengYuParseResult;
 import com.java.chengyu.shared.fileutils.parsers.PinYinParseResult;
 import com.java.chengyu.shared.fileutils.parsers.StringSource;
 import com.java.chengyu.shared.pronunciation.ChengYu;
-import com.java.chengyu.shared.pronunciation.PinYin;
 
 public class FloydWallshall
 {
    static final Logger FUNCTION = Logger.getLogger("FUNCTION");
    
-   int MAX = 1024;
+   int MAX = 8192;
    int INF = 65536;
 
    int f[][] = new int[MAX][MAX];

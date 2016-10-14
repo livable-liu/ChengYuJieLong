@@ -20,4 +20,9 @@ public class Pronunciation
    {
       return this.tone;
    }
+   
+   public String getDisplay()
+   {
+      return pinyin.getByIndex(tone);
+   }
 }

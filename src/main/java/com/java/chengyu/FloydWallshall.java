@@ -3,14 +3,25 @@ package com.java.chengyu;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.Iterator;
 import java.util.List;
+import java.util.Map;
 
+import org.apache.log4j.Logger;
+
+import com.java.chengyu.shared.fileutils.parsers.ChengYuFileParser;
+import com.java.chengyu.shared.fileutils.parsers.ChengYuParseResult;
+import com.java.chengyu.shared.fileutils.parsers.PinYinParseResult;
+import com.java.chengyu.shared.fileutils.parsers.StringSource;
 import com.java.chengyu.shared.pronunciation.ChengYu;
 import com.java.chengyu.shared.pronunciation.PinYin;
 
 public class FloydWallshall
 {
-
+   static final Logger FUNCTION = Logger.getLogger("FUNCTION");
+   
    int MAX = 1024;
    int INF = 65536;
 
@@ -131,22 +142,42 @@ public class FloydWallshall
 
       {
          
-         fW.f[1][2] = 1; //风起云涌
-         fW.pMap[1][2] = new ChengYu(Arrays.asList("风","起","云","涌"), Arrays.asList(new PinYin("fēng", "fēng", "fēng", "fēng", "fēng", 'f'), new PinYin("fēng", "fēng", "fēng", "fēng", "fēng", 'f'), new PinYin("fēng", "fēng", "fēng", "fēng", "fēng", 'f'), new PinYin("fēng", "fēng", "fēng", "fēng", "fēng", 'f')));
-         fW.f[1][3] = 1; //封疆大吏
-         fW.pMap[1][3] = new ChengYu(Arrays.asList("封","疆","大","吏"), Arrays.asList(new PinYin("fēng", "fēng", "fēng", "fēng", "fēng", 'f'), new PinYin("fēng", "fēng", "fēng", "fēng", "fēng", 'f'), new PinYin("fēng", "fēng", "fēng", "fēng", "fēng", 'f'), new PinYin("fēng", "fēng", "fēng", "fēng", "fēng", 'f')));
-         fW.f[2][3] = 1; //用心竭力
-         fW.pMap[2][3] = new ChengYu(Arrays.asList("用","心","竭","力"), Arrays.asList(new PinYin("fēng", "fēng", "fēng", "fēng", "fēng", 'f'), new PinYin("fēng", "fēng", "fēng", "fēng", "fēng", 'f'), new PinYin("fēng", "fēng", "fēng", "fēng", "fēng", 'f'), new PinYin("fēng", "fēng", "fēng", "fēng", "fēng", 'f')));
-         fW.f[3][6] = 1; //礼崩乐坏
-         fW.pMap[3][6] = new ChengYu(Arrays.asList("礼","崩","乐","坏"), Arrays.asList(new PinYin("fēng", "fēng", "fēng", "fēng", "fēng", 'f'), new PinYin("fēng", "fēng", "fēng", "fēng", "fēng", 'f'), new PinYin("fēng", "fēng", "fēng", "fēng", "fēng", 'f'), new PinYin("fēng", "fēng", "fēng", "fēng", "fēng", 'f'))); 
-         fW.f[3][4] = 1; //李代桃僵
-         fW.pMap[3][4] = new ChengYu(Arrays.asList("李","代","桃","僵"), Arrays.asList(new PinYin("fēng", "fēng", "fēng", "fēng", "fēng", 'f'), new PinYin("fēng", "fēng", "fēng", "fēng", "fēng", 'f'), new PinYin("fēng", "fēng", "fēng", "fēng", "fēng", 'f'), new PinYin("fēng", "fēng", "fēng", "fēng", "fēng", 'f')));
-         fW.f[4][5] = 1; //江河日下
-         fW.pMap[4][5] = new ChengYu(Arrays.asList("江","河","日","下"), Arrays.asList(new PinYin("fēng", "fēng", "fēng", "fēng", "fēng", 'f'), new PinYin("fēng", "fēng", "fēng", "fēng", "fēng", 'f'), new PinYin("fēng", "fēng", "fēng", "fēng", "fēng", 'f'), new PinYin("fēng", "fēng", "fēng", "fēng", "fēng", 'f')));
-         fW.f[5][1] = 1; //狭路相逢
-         fW.pMap[5][1] = new ChengYu(Arrays.asList("狭","路","相","逢"), Arrays.asList(new PinYin("fēng", "fēng", "fēng", "fēng", "fēng", 'f'), new PinYin("fēng", "fēng", "fēng", "fēng", "fēng", 'f'), new PinYin("fēng", "fēng", "fēng", "fēng", "fēng", 'f'), new PinYin("fēng", "fēng", "fēng", "fēng", "fēng", 'f')));
-         fW.f[6][5] = 1; //怀柔天下
-         fW.pMap[6][5] = new ChengYu(Arrays.asList("怀","柔","天","下"), Arrays.asList(new PinYin("fēng", "fēng", "fēng", "fēng", "fēng", 'f'), new PinYin("fēng", "fēng", "fēng", "fēng", "fēng", 'f'), new PinYin("fēng", "fēng", "fēng", "fēng", "fēng", 'f'), new PinYin("fēng", "fēng", "fēng", "fēng", "fēng", 'f')));
+         StringBuilder sb = new StringBuilder();
+         sb.append("风起云涌 fēng qǐ yún yǒng\r\n");
+         sb.append("封疆大吏 fēng jiāng dà lì\r\n");
+         sb.append("用心竭力 yòng xīn jié lì\r\n");
+         sb.append("礼崩乐坏 lǐ bēng yuè huài\r\n");
+         sb.append("李代桃僵 lǐ dài táo jiāng\r\n");
+         sb.append("江河日下 jiāng hé rì xià\r\n");
+         sb.append("狭路相逢 xiá lù xiāng féng\r\n");
+         sb.append("怀柔天下 huái róu tiān xià\r\n");
+         
+         ChengYuFileParser parser = new ChengYuFileParser();
+         parser.setSource(new StringSource(sb.toString()));
+         parser.setSplitter("\\s+");
+         PinYinParseResult pinyinRes = ParsePinYinFile.parsePinYinFile("./pinyin.txt");
+         parser.setDictionary(pinyinRes.getDictionary());
+         parser.parse();
+         
+         ChengYuParseResult result = (ChengYuParseResult) parser.getResult();
+         Collection<ChengYu> collects = result.getAllItems();
+         Iterator<ChengYu> it = collects.iterator();
+         
+         Map<String, Integer> maps = new HashMap<String, Integer>();
+         maps.put("feng", 1);
+         maps.put("yong", 2);
+         maps.put("li", 3);
+         maps.put("jiang", 4);
+         maps.put("xia", 5);
+         maps.put("huai", 6);
+         
+         
+         while (it.hasNext())
+         {
+            ChengYu chengyu = it.next();
+            fW.f[maps.get(chengyu.getFirstPronunciation().getPinYin().getBase())][maps.get(chengyu.getLastPronunciation().getPinYin().getBase())] = 1;
+            fW.pMap[maps.get(chengyu.getFirstPronunciation().getPinYin().getBase())][maps.get(chengyu.getLastPronunciation().getPinYin().getBase())] = chengyu;
+         }
 
       }
 

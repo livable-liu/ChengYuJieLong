@@ -4,46 +4,39 @@ import java.util.List;
 
 public class ChengYu
 {
-   String firstCharactor;
-   String lastCharactor;
-   PinYin firstPinYin;
-   PinYin lastPinYin;
-   
-   List<String> chengyuList;
-   List<PinYin> pinyinList;
+   List<Charactor> charactors;
    
    public ChengYu()
    {
       
    }
    
-   public ChengYu(List<String> chengyuList, List<PinYin> pinyinList)
+   public ChengYu(List<Charactor> charactors)
    {
-      this.chengyuList = chengyuList;
-      this.pinyinList = pinyinList;
-      this.firstCharactor = chengyuList.get(0);
-      this.lastCharactor = chengyuList.get(chengyuList.size() - 1);
-      this.firstPinYin = pinyinList.get(0);
-      this.lastPinYin = pinyinList.get(pinyinList.size() - 1);
+      this.charactors = charactors;
    }
    
 
-   public PinYin getFirstPinYin()
+   public Pronunciation getFirstPronunciation()
    {
-      return this.firstPinYin;
+      return charactors.get(0).getPronunciation();
    }
    
-   public PinYin getLastPinYin()
+   public Pronunciation getLastPronunciation()
    {
-      return this.lastPinYin;
+      return charactors.get(charactors.size() - 1).getPronunciation();
    }
    
    public String toString()
    {
       StringBuilder sb = new StringBuilder();
-      for (int i = 0 ; i < chengyuList.size(); i ++)
+      for (int i = 0 ; i < charactors.size(); i ++)
       {
-         sb.append(chengyuList.get(i));
+         Charactor charactor = charactors.get(i);
+         sb.append(charactor.getCharactorString());
+         sb.append("(");
+         sb.append(charactor.getPronunciation().getPinYin().getByIndex(charactor.getPronunciation().getTone()));
+         sb.append(")");
       }
       return sb.toString();
    }

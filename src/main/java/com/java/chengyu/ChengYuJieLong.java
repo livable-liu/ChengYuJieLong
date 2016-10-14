@@ -30,8 +30,9 @@ public class ChengYuJieLong
       FUNCTION.info("Enter parse ChengYu file!");
       PropertyConfigurator.configure("./src/main/java/log4j.properties");
       PropertyConfigurator.configureAndWatch("./src/main/java/log4j.properties", 60000L);
-      String path = "./chengyu.txt";
-      String content = FileUtils.readStringFromLocalFile(path, "GBK");
+//      String path = "./chengyu.txt";
+      String path = "./chengyu_utf8.txt";
+      String content = FileUtils.readStringFromLocalFile(path, "UTF-8");
       Parser parser = new ChengYuFileParser();
       parser.setSource(new StringSource(content));
       parser.setSplitter("\\s+");
@@ -79,8 +80,8 @@ public class ChengYuJieLong
          while (its.hasNext())
          {
             ChengYu chengyu = its.next();
-            fW.f[pinyin2Index.get(chengyu.getFirstPinYin().getBase())][pinyin2Index.get(chengyu.getLastPinYin().getBase())] = 1;
-            fW.pMap[pinyin2Index.get(chengyu.getFirstPinYin().getBase())][pinyin2Index.get(chengyu.getLastPinYin().getBase())] = chengyu;
+            fW.f[pinyin2Index.get(chengyu.getFirstPronunciation().getPinYin().getBase())][pinyin2Index.get(chengyu.getLastPronunciation().getPinYin().getBase())] = 1;
+            fW.pMap[pinyin2Index.get(chengyu.getFirstPronunciation().getPinYin().getBase())][pinyin2Index.get(chengyu.getLastPronunciation().getPinYin().getBase())] = chengyu;
          }
       }
       

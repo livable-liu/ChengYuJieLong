@@ -46,7 +46,7 @@ public class ChengYuJieLongWithTone
       
       //Use floyd-warshall algorithm
       //fW with tone
-      FloydWallshall fW = new FloydWallshall();
+      FloydWarshall fW = new FloydWarshall();
       
       Collection<PinYin> pinyins = pinyinRes.getAllItems();
       Map<Integer, String> index2pinyin = new HashMap<Integer, String>();
@@ -101,7 +101,7 @@ public class ChengYuJieLongWithTone
          }
       }
       
-      fW.floydWallshall(N);
+      fW.floydWarshall(N);
       
       //Query jielong
       System.out.println();

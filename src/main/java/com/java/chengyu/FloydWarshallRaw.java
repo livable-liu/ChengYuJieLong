@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class FloydWallshallRaw
+public class FloydWarshallRaw
 {
 
    int MAX = 1024;
@@ -32,7 +32,7 @@ public class FloydWallshallRaw
    }
    
    //N is node count
-   private void floydWallshall(int N)
+   private void floydWarshall(int N)
    {
       int nLen = 65536;
       for (int k = 1; k <= N; k ++)
@@ -92,7 +92,7 @@ public class FloydWallshallRaw
    
    public static void main(String[] args) throws IOException
    {
-      FloydWallshallRaw fW = new FloydWallshallRaw();
+      FloydWarshallRaw fW = new FloydWarshallRaw();
       int M = 9;// edge count
       int N = 5; // node count
       
@@ -119,7 +119,7 @@ public class FloydWallshallRaw
          
       }
       
-      fW.floydWallshall(N);
+      fW.floydWarshall(N);
    }
 
 }

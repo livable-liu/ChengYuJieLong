@@ -16,11 +16,11 @@ import com.java.chengyu.shared.fileutils.parsers.PinYinParseResult;
 import com.java.chengyu.shared.fileutils.parsers.StringSource;
 import com.java.chengyu.shared.pronunciation.ChengYu;
 
-public class FloydWallshall
+public class FloydWarshall
 {
    static final Logger FUNCTION = Logger.getLogger("FUNCTION");
    
-   int MAX = 8192;
+   int MAX = 4096;
    int INF = 65536;
 
    int f[][] = new int[MAX][MAX];
@@ -54,7 +54,7 @@ public class FloydWallshall
    }
    
    // N is node count
-   public void floydWallshall(int N)
+   public void floydWarshall(int N)
    {
       int nLen = 65536;
       for (int k = 1; k <= N; k++)
@@ -124,7 +124,7 @@ public class FloydWallshall
    public static void main(String[] args)
       throws IOException
    {
-      FloydWallshall fW = new FloydWallshall();
+      FloydWarshall fW = new FloydWarshall();
       int M = 8;// edge count
       int N = 6; // node count
 
@@ -179,7 +179,7 @@ public class FloydWallshall
 
       }
 
-      fW.floydWallshall(N);
+      fW.floydWarshall(N);
    }
 
 }

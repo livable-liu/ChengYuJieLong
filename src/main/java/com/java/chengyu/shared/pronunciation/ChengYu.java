@@ -4,43 +4,43 @@ import java.util.List;
 
 public class ChengYu
 {
-   List<Charactor> charactors;
+   List<Character> characters;
    
    public ChengYu()
    {
       
    }
    
-   public ChengYu(List<Charactor> charactors)
+   public ChengYu(List<Character> characters)
    {
-      this.charactors = charactors;
+      this.characters = characters;
    }
    
 
    public Pronunciation getFirstPronunciation()
    {
-      return charactors.get(0).getPronunciation();
+      return characters.get(0).getPronunciation();
    }
    
    public Pronunciation getLastPronunciation()
    {
-      return charactors.get(charactors.size() - 1).getPronunciation();
+      return characters.get(characters.size() - 1).getPronunciation();
    }
    
-   public List<Charactor> getCharactors()
+   public List<Character> getCharacters()
    {
-      return charactors;
+      return characters;
    }
    
    public String toString()
    {
       StringBuilder sb = new StringBuilder();
-      for (int i = 0 ; i < charactors.size(); i ++)
+      for (int i = 0 ; i < characters.size(); i ++)
       {
-         Charactor charactor = charactors.get(i);
-         sb.append(charactor.getCharactorString());
+         Character character = characters.get(i);
+         sb.append(character.getCharacterString());
          sb.append("(");
-         sb.append(charactor.getPronunciation().getPinYin().getByIndex(charactor.getPronunciation().getTone()));
+         sb.append(character.getPronunciation().getPinYin().getByIndex(character.getPronunciation().getTone()));
          sb.append(")");
       }
       return sb.toString();

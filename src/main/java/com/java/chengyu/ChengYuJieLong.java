@@ -46,7 +46,7 @@ public class ChengYuJieLong
       
       //Use floyd-warshall algorithm
       //fW with no tone
-      FloydWallshall fW = new FloydWallshall();
+      FloydWarshall fW = new FloydWarshall();
       int M = result.getSize();// edge count
       int N = pinYinDic.size(); // node count
       
@@ -86,7 +86,7 @@ public class ChengYuJieLong
          }
       }
       
-      fW.floydWallshall(N);
+      fW.floydWarshall(N);
       
       //Query jielong
       System.out.println();

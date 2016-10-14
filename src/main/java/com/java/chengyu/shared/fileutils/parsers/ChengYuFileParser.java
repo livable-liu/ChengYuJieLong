@@ -5,7 +5,7 @@ import java.util.List;
 
 import org.apache.log4j.Logger;
 
-import com.java.chengyu.shared.pronunciation.Charactor;
+import com.java.chengyu.shared.pronunciation.Character;
 import com.java.chengyu.shared.pronunciation.ChengYu;
 import com.java.chengyu.shared.pronunciation.Dictionary;
 import com.java.chengyu.shared.pronunciation.PinYin;
@@ -33,7 +33,7 @@ public class ChengYuFileParser implements Parser
 
          while (index > 0 && index + "\r\n".length() <= source.length())
          {
-            List<Charactor> charactors = new ArrayList<Charactor>();
+            List<Character> characters = new ArrayList<Character>();
             String tmp = source.substring(start, index);
             String[] array = tmp.split(splitter);
             String[] chengyuStr = array[0].trim().split("");
@@ -44,11 +44,11 @@ public class ChengYuFileParser implements Parser
                if (pinyin != null)
                {
                   Pronunciation pronunciation = new Pronunciation(pinyin, pinyin.getIndexByDisplay(array[i]));
-                  Charactor charactor = new Charactor(chengyuStr[i], pronunciation);
-                  charactors.add(charactor);
+                  Character character = new Character(chengyuStr[i-1], pronunciation);
+                  characters.add(character);
                }
             }
-            result.addItem(new ChengYu(charactors));
+            result.addItem(new ChengYu(characters));
             start = index + "\r\n".length();
             index = source.indexOf("\r\n", start);
          }
@@ -56,7 +56,7 @@ public class ChengYuFileParser implements Parser
          //file not end with \r\n
          if (index == -1 && start < source.length() - 1)
          {
-            List<Charactor> charactors = new ArrayList<Charactor>();
+            List<Character> characters = new ArrayList<Character>();
             String tmp = source.substring(start);
             String[] array = tmp.split(splitter);
             String[] chengyuStr = array[0].trim().split("");
@@ -66,11 +66,11 @@ public class ChengYuFileParser implements Parser
                if (pinyin != null)
                {
                   Pronunciation pronunciation = new Pronunciation(pinyin, pinyin.getIndexByDisplay(array[i]));
-                  Charactor charactor = new Charactor(chengyuStr[i], pronunciation);
-                  charactors.add(charactor);
+                  Character character = new Character(chengyuStr[i-1], pronunciation);
+                  characters.add(character);
                }
             }
-            result.addItem(new ChengYu(charactors));
+            result.addItem(new ChengYu(characters));
          }
       }
    }

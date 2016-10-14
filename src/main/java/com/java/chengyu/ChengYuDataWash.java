@@ -88,9 +88,9 @@ public class ChengYuDataWash
             if (pinyin2Index.get(chengyu.getFirstPronunciation().getDisplay()) == null)
             {
                String tmp = "";
-               for (int i = 0; i < chengyu.getCharactors().size(); i ++)
+               for (int i = 0; i < chengyu.getCharacters().size(); i ++)
                {
-                  tmp += chengyu.getCharactors().get(i).getCharactorString();
+                  tmp += chengyu.getCharacters().get(i).getCharacterString();
                }
                FUNCTION.info(tmp);
             }

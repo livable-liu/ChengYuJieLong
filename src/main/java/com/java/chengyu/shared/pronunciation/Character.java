@@ -1,13 +1,13 @@
 package com.java.chengyu.shared.pronunciation;
 
-public class Charactor
+public class Character
 {
-   String charactorString;
+   String characterString;
    Pronunciation pronunciation;
    
-   public Charactor(String charactorString, Pronunciation pronunciation)
+   public Character(String characterString, Pronunciation pronunciation)
    {
-      this.charactorString = charactorString;
+      this.characterString = characterString;
       this.pronunciation = pronunciation;
    }
    
@@ -16,8 +16,8 @@ public class Charactor
       return this.pronunciation;
    }
    
-   public String getCharactorString()
+   public String getCharacterString()
    {
-      return this.charactorString;
+      return this.characterString;
    }
 }

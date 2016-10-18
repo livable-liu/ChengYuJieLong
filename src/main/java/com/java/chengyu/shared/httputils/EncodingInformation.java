@@ -51,7 +51,7 @@ public class EncodingInformation
       if (str1.equals(""))
       {
          String str2 = "<meta[^<]+content=(.*?)\\s*>";
-         Matcher localMatcher = Pattern.compile(str2, 98).matcher(paramString);
+         Matcher localMatcher = Pattern.compile(str2, Pattern.CASE_INSENSITIVE | Pattern.DOTALL | Pattern.UNICODE_CASE).matcher(paramString);
          while (localMatcher.find())
          {
             String str3 = localMatcher.group(1);

@@ -74,6 +74,7 @@ public class HTTPSimulator
                .setRequestProperty(
                      "Accept",
                "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8");
+         localHttpURLConnection.setRequestProperty("Cache-Control", "no-cache");
          localHttpURLConnection.setRequestProperty("Connection", "Keep-Alive");
          localHttpURLConnection.setRequestProperty("Referer", referer);
          localHttpURLConnection.setRequestProperty("Accept-Language", "zh-CN,zh;q=0.8");

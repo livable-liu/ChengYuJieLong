@@ -62,9 +62,12 @@ public class DownloadChengYuOccurrenceRate
                /*
                 * Download by HTTPSimulator
                 */
-               String temp = HTTPSimulator.getHTMLPageFromUrl("http://cn.bing.com/search?q="
+//               String temp = HTTPSimulator.getHTMLPageFromUrl("http://cn.bing.com/search?q="
+//                     + URLEncoder.encode(array[0].trim(), "UTF-8"),
+//                     "http://cn.bing.com/", "UTF-8");
+               String temp = HTTPSimulator.getHTMLPageFromUrl("http://www.baidu.com/s?wd="
                      + URLEncoder.encode(array[0].trim(), "UTF-8"),
-                     "http://cn.bing.com/", "UTF-8");
+                     "http://www.baidu.com/", "UTF-8");
                if (temp != null && !"".equals(temp))
                {
                   // Get by xpath
@@ -80,14 +83,18 @@ public class DownloadChengYuOccurrenceRate
 //                     }
 //                  }
                   // Get regular expression
-                  Matcher matcher = Pattern.compile("<span\\s*class=\"sb_count\">(.*?)</span>",
-                        Pattern.CASE_INSENSITIVE | Pattern.DOTALL | Pattern.UNICODE_CASE).matcher(temp);
+//                  Matcher matcher = Pattern.compile("<span\\s*class=\"sb_count\">(.*?)</span>",
+//                        Pattern.CASE_INSENSITIVE | Pattern.DOTALL | Pattern.UNICODE_CASE).matcher(temp);
+                  Matcher matcher = Pattern.compile("百度为您找到相关结果约(.*?)个",
+                      Pattern.CASE_INSENSITIVE | Pattern.DOTALL | Pattern.UNICODE_CASE).matcher(temp);
                   if (matcher.find())
                   {
                      countStr = matcher.group(1);
                      countStr = countStr.replaceAll("[^0-9]", "");
                   }
                }
+               
+               Thread.sleep(1000);
                
                /*
                 * Download by HTMLUnit

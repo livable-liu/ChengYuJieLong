@@ -8,15 +8,8 @@ import java.util.regex.Pattern;
 import org.apache.commons.lang.StringUtils;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
-import org.htmlcleaner.TagNode;
-import org.w3c.dom.Document;
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
 
-import com.java.chengyu.shared.domutils.HtmlCleanerUtil;
-import com.java.chengyu.shared.domutils.W3cDocumentUtil;
 import com.java.chengyu.shared.fileutils.FileUtils;
-import com.java.chengyu.shared.httputils.HTMLUnit;
 import com.java.chengyu.shared.httputils.HTTPSimulator;
 
 /**

@@ -1528,14 +1528,7 @@
 变化如神 biàn huà rú shén 126000
 变化无常 biàn huà wú cháng 2900000
 变化无穷 biàn huà wú qióng 6110000
-变幻不测 biàn huà bù cè 2260000
-变化不穷 biàn huà bù qióng 348000
-变化多端 biàn huà duō duān 12600000
-变化莫测 biàn huà mò cè 2100000
-变化如神 biàn huà rú shén 126000
-变化无常 biàn huà wú cháng 2900000
-变化无穷 biàn huà wú qióng 6110000
-变幻不测 biàn huà bù cè 2260000
+变幻不测 biàn huàn bù cè 2260000
 变幻莫测 biàn huàn mò cè 3110000
 变幻无常 biàn huàn wú cháng 2840000
 变幻无穷 biàn huàn wú qióng 1050000

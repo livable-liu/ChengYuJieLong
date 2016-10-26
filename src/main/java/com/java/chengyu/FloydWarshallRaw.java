@@ -41,7 +41,7 @@ public class FloydWarshallRaw
          {
             for (int j = 1; j <= k; j ++)
             {
-               nLen = Math.min(nLen, pMap[i][j] + f[i][k] + f[k][j]);
+               nLen = Math.min(nLen, pMap[j][i] + f[i][k] + f[k][j]);
             }
          }
          
@@ -100,7 +100,7 @@ public class FloydWarshallRaw
       {
          for (int j = 1; j <= N; j ++)
          {
-            fW.pMap[i][j] = fW.f[i][j] = (i == j) ? 0 : fW.INF;
+            fW.pMap[i][j] = fW.f[i][j] = fW.INF;
             fW.rMap[i][j] = new ArrayList<Integer>();
          }
       }

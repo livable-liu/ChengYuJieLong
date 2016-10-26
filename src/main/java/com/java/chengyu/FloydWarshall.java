@@ -19,7 +19,7 @@ import com.java.chengyu.shared.pronunciation.ChengYu;
 public class FloydWarshall
 {
    static final Logger FUNCTION = Logger.getLogger("FUNCTION");
-   
+
    int MAX = 4096;
    int INF = 65536;
 
@@ -47,12 +47,12 @@ public class FloydWarshall
          System.out.print("->");
       }
    }
-   
+
    public void printPath(int from, int to)
    {
       printPath(rMap[from][to]);
    }
-   
+
    // N is node count
    public void floydWarshall(int N)
    {
@@ -63,7 +63,7 @@ public class FloydWarshall
          {
             for (int j = 1; j <= k; j++)
             {
-               nLen = Math.min(nLen, (pMap[i][j] == null ? 0 : 1) + f[i][k] + f[k][j]);
+               nLen = Math.min(nLen, f[j][i] + f[i][k] + f[k][j]);
             }
          }
 
@@ -79,13 +79,13 @@ public class FloydWarshall
                   List<ChengYu> dPath = (List<ChengYu>) rMap[k][j];
 
                   mergePath((List<ChengYu>) rMap[i][j], sPath);
-//                  ((List<ChengYu>) rMap[i][j]).add(pMap[i][k]);
-//                  ((List<ChengYu>) rMap[i][j]).add(pMap[k][j]);
+                  // ((List<ChengYu>) rMap[i][j]).add(pMap[i][k]);
+                  // ((List<ChengYu>) rMap[i][j]).add(pMap[k][j]);
                   mergePath((List<ChengYu>) rMap[i][j], dPath);
                }
                else
                {
-                  if (f[i][j] == 1)
+                  if (f[i][j] <= 4 && (rMap[i][j] == null || rMap[i][j].size() == 0))
                   {
                      rMap[i][j] = new ArrayList<ChengYu>();
                      ((List<ChengYu>) rMap[i][j]).add(pMap[i][j]);
@@ -133,13 +133,13 @@ public class FloydWarshall
          for (int j = 1; j <= N; j++)
          {
             fW.pMap[i][j] = null;
-            fW.f[i][j] = (i == j) ? 0 : fW.INF;
+            fW.f[i][j] = fW.INF;
             fW.rMap[i][j] = new ArrayList<Integer>();
          }
       }
 
       {
-         
+
          StringBuilder sb = new StringBuilder();
          sb.append("风起云涌 fēng qǐ yún yǒng\r\n");
          sb.append("封疆大吏 fēng jiāng dà lì\r\n");
@@ -149,18 +149,18 @@ public class FloydWarshall
          sb.append("江河日下 jiāng hé rì xià\r\n");
          sb.append("狭路相逢 xiá lù xiāng féng\r\n");
          sb.append("怀柔天下 huái róu tiān xià\r\n");
-         
+
          ChengYuFileParser parser = new ChengYuFileParser();
          parser.setSource(new StringSource(sb.toString()));
          parser.setSplitter("\\s+");
          PinYinParseResult pinyinRes = ParsePinYinFile.parsePinYinFile("./pinyin.txt");
          parser.setDictionary(pinyinRes.getDictionary());
          parser.parse();
-         
+
          ChengYuParseResult result = (ChengYuParseResult) parser.getResult();
          Collection<ChengYu> collects = result.getAllItems();
          Iterator<ChengYu> it = collects.iterator();
-         
+
          Map<String, Integer> maps = new HashMap<String, Integer>();
          maps.put("feng", 1);
          maps.put("yong", 2);
@@ -168,13 +168,14 @@ public class FloydWarshall
          maps.put("jiang", 4);
          maps.put("xia", 5);
          maps.put("huai", 6);
-         
-         
+
          while (it.hasNext())
          {
             ChengYu chengyu = it.next();
-            fW.f[maps.get(chengyu.getFirstPronunciation().getPinYin().getBase())][maps.get(chengyu.getLastPronunciation().getPinYin().getBase())] = 1;
-            fW.pMap[maps.get(chengyu.getFirstPronunciation().getPinYin().getBase())][maps.get(chengyu.getLastPronunciation().getPinYin().getBase())] = chengyu;
+            fW.f[maps.get(chengyu.getFirstPronunciation().getPinYin().getBase())][maps
+                  .get(chengyu.getLastPronunciation().getPinYin().getBase())] = 1;
+            fW.pMap[maps.get(chengyu.getFirstPronunciation().getPinYin().getBase())][maps
+                  .get(chengyu.getLastPronunciation().getPinYin().getBase())] = chengyu;
          }
 
       }

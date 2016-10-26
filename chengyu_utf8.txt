@@ -1528,14 +1528,7 @@
 变化如神 biàn huà rú shén
 变化无常 biàn huà wú cháng
 变化无穷 biàn huà wú qióng
-变幻不测 biàn huà bù cè
-变化不穷 biàn huà bù qióng
-变化多端 biàn huà duō duān
-变化莫测 biàn huà mò cè
-变化如神 biàn huà rú shén
-变化无常 biàn huà wú cháng
-变化无穷 biàn huà wú qióng
-变幻不测 biàn huà bù cè
+变幻不测 biàn huàn bù cè
 变幻莫测 biàn huàn mò cè
 变幻无常 biàn huàn wú cháng
 变幻无穷 biàn huàn wú qióng

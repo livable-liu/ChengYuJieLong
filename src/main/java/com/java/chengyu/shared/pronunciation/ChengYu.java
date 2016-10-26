@@ -6,6 +6,8 @@ public class ChengYu
 {
    List<Character> characters;
    
+   int weight;
+   
    public ChengYu()
    {
       
@@ -30,6 +32,16 @@ public class ChengYu
    public List<Character> getCharacters()
    {
       return characters;
+   }
+   
+   public int getWeight()
+   {
+	   return weight;
+   }
+   
+   public void setWeight(int weight)
+   {
+	   this.weight = weight;
    }
    
    public String toString()

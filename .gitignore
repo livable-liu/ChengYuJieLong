@@ -2,3 +2,4 @@
 function.log
 pinyin.log
 result.log
+*.class

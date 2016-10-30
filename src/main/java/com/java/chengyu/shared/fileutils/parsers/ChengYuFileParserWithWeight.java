@@ -25,7 +25,6 @@ public class ChengYuFileParserWithWeight implements Parser
    {
       String source = content.getSource();
       result = new ChengYuParseResult();
-      int line = 1;
       if (content != null && splitter != null)
       {
          int start = 0;
@@ -71,7 +70,6 @@ public class ChengYuFileParserWithWeight implements Parser
             }
             start = index + "\r\n".length();
             index = source.indexOf("\r\n", start);
-            line++;
          }
 
          // file not end with \r\n
@@ -112,12 +110,8 @@ public class ChengYuFileParserWithWeight implements Parser
             {
                result.addItem(chengyu);
                result.addItem(new ChengYu(characters));
-               line++;
             }
          }
-         line--;
-         System.out.println("Total line count is : " + line);
-         System.out.println("ChengYu dictionary size is : " + result.getSize());
       }
    }
 

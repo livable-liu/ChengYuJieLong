@@ -23,10 +23,10 @@ public class DownloadChengYuPinYinFromIciba
    {
       System.out.println("Enter optimize ChengYu PinYin Collection2!");
       FUNCTION.info("Enter optimize!!");
-      PropertyConfigurator.configure("./src/main/java/log4j.properties");
+      PropertyConfigurator.configure("./src/main/resources/log4j.properties");
       PropertyConfigurator.configureAndWatch("./src/main/java/log4j.properties", 60000L);
       // download pinyin from internet
-      String path = "./optimized.log";
+      String path = "./log/optimized.log";
       String content = FileUtils.readStringFromLocalFile(path, "UTF-8");
       StringBuffer sb = new StringBuffer();
       if (content != null)
@@ -129,7 +129,7 @@ public class DownloadChengYuPinYinFromIciba
 
       try
       {
-         FileUtils.writeStringToLocalFile("optimized2.log", sb.toString(), "UTF-8");
+         FileUtils.writeStringToLocalFile("./log/optimized2.log", sb.toString(), "UTF-8");
       }
       catch (IOException e)
       {

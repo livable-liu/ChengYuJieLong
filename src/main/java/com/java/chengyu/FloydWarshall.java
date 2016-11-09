@@ -153,7 +153,7 @@ public class FloydWarshall
          ChengYuFileParser parser = new ChengYuFileParser();
          parser.setSource(new StringSource(sb.toString()));
          parser.setSplitter("\\s+");
-         PinYinParseResult pinyinRes = ParsePinYinFile.parsePinYinFile("./pinyin.txt");
+         PinYinParseResult pinyinRes = ParsePinYinFile.parsePinYinFile("./src/main/resources/pinyin.txt");
          parser.setDictionary(pinyinRes.getDictionary());
          parser.parse();
 

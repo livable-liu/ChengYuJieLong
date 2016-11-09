@@ -15,7 +15,7 @@ import junit.framework.TestCase;
 import junit.framework.TestSuite;
 
 /**
- * Unit test for simple App.
+ * Unit test for ChengYuFileParserWithWeight.
  */
 public class ChengYuFileParserWithWeightTest extends TestCase
 {

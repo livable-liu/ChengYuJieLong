@@ -17,14 +17,14 @@ public class ParseChengYuFile
    {
       System.out.println("Enter parse ChengYu file!");
       FUNCTION.info("Enter parse!");
-      PropertyConfigurator.configure("./src/main/java/log4j.properties");
-      PropertyConfigurator.configureAndWatch("./src/main/java/log4j.properties", 60000L);
-      String path = "./chengyu.txt";
+      PropertyConfigurator.configure("./src/main/resources/log4j.properties");
+      PropertyConfigurator.configureAndWatch("./src/main/resources/log4j.properties", 60000L);
+      String path = "./src/main/resources/chengyu.txt";
       String content = FileUtils.readStringFromLocalFile(path, "GB2312");
       Parser parser = new ChengYuFileParser();
       parser.setSource(new StringSource(content));
       parser.setSplitter("\\s+");
-      parser.setDictionary(ParsePinYinFile.parsePinYinFile("./pinyin.txt").getDictionary());
+      parser.setDictionary(ParsePinYinFile.parsePinYinFile("./src/main/resources/pinyin.txt").getDictionary());
       parser.parse();
       ChengYuParseResult result = (ChengYuParseResult) parser.getResult();
       System.out.println(result.getSize());

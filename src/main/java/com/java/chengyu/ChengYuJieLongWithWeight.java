@@ -48,15 +48,15 @@ public class ChengYuJieLongWithWeight
    {
       System.out.println("Enter ChengYuJieLongWithWeight!");
       FUNCTION.info("Enter parse ChengYu file!");
-      PropertyConfigurator.configure("./src/main/java/log4j.properties");
-      PropertyConfigurator.configureAndWatch("./src/main/java/log4j.properties", 60000L);
+      PropertyConfigurator.configure("./src/main/resources/log4j.properties");
+      PropertyConfigurator.configureAndWatch("./src/main/resources/log4j.properties", 60000L);
       // String path = "./chengyu.txt";
-      String path = "./chengyu_weight_dubai.txt";
+      String path = "./src/main/resources/chengyu_weight_dubai.txt";
       String content = FileUtils.readStringFromLocalFile(path, "UTF-8");
       Parser parser = new ChengYuFileParserWithWeight();
       parser.setSource(new StringSource(content));
       parser.setSplitter("\\s+");
-      PinYinParseResult pinyinRes = ParsePinYinFile.parsePinYinFile("./pinyin.txt");
+      PinYinParseResult pinyinRes = ParsePinYinFile.parsePinYinFile("./src/main/resources/pinyin.txt");
       Dictionary pinYinDic = pinyinRes.getDictionary();
       parser.setDictionary(pinYinDic);
       parser.parse();

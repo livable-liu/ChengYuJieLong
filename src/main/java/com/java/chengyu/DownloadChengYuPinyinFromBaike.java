@@ -27,10 +27,10 @@ public class DownloadChengYuPinyinFromBaike
    {
       System.out.println("Enter optimize ChengYu PinYin Collection!");
       FUNCTION.info("Enter optimize!!");
-      PropertyConfigurator.configure("./src/main/java/log4j.properties");
-      PropertyConfigurator.configureAndWatch("./src/main/java/log4j.properties", 60000L);
+      PropertyConfigurator.configure("./src/main/resources/log4j.properties");
+      PropertyConfigurator.configureAndWatch("./src/main/resources/log4j.properties", 60000L);
       // download pinyin from internet
-      String path = "./RawChengYuPinYin.txt";
+      String path = "./src/main/resources/RawChengYuPinYin.txt";
       String content = FileUtils.readStringFromLocalFile(path, "GBK");
       StringBuffer sb = new StringBuffer();
       if (content != null)
@@ -113,7 +113,7 @@ public class DownloadChengYuPinyinFromBaike
 
       try
       {
-         FileUtils.writeStringToLocalFile("optimized1.log", sb.toString(), "UTF-8");
+         FileUtils.writeStringToLocalFile("./log/optimized1.log", sb.toString(), "UTF-8");
       }
       catch (IOException e)
       {

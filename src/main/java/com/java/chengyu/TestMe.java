@@ -24,8 +24,8 @@ public class TestMe
    {
       System.out.println("Enter parse PinYin Collection file!");
       FUNCTION.info("Enter TestMe!");
-      PropertyConfigurator.configure("./src/main/java/log4j.properties");
-      PropertyConfigurator.configureAndWatch("./src/main/java/log4j.properties", 60000L);
+      PropertyConfigurator.configure("./src/main/resources/log4j.properties");
+      PropertyConfigurator.configureAndWatch("./src/main/resources/log4j.properties", 60000L);
       FUNCTION.debug(debugLogGenerator("DEBUG"));
       if (FUNCTION.isDebugEnabled())
       {

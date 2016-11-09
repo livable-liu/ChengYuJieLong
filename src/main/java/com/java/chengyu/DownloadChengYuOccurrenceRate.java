@@ -30,9 +30,9 @@ public class DownloadChengYuOccurrenceRate
    {
       System.out.println("Enter download ChengYu occurence rate from Baidu!");
       FUNCTION.info("Enter download!!");
-      PropertyConfigurator.configure("./src/main/java/log4j.properties");
-      PropertyConfigurator.configureAndWatch("./src/main/java/log4j.properties", 60000L);
-      String path = "./chengyu.txt";
+      PropertyConfigurator.configure("./src/main/resources/log4j.properties");
+      PropertyConfigurator.configureAndWatch("./src/main/resources/log4j.properties", 60000L);
+      String path = "./src/main/resources/chengyu.txt";
       String content = FileUtils.readStringFromLocalFile(path, "UTF-8");
       StringBuffer sb = new StringBuffer();
       if (content != null)
@@ -125,7 +125,7 @@ public class DownloadChengYuOccurrenceRate
 
       try
       {
-         FileUtils.writeStringToLocalFile("chengyu_weight.log", sb.toString(), "UTF-8");
+         FileUtils.writeStringToLocalFile("./log/chengyu_weight.log", sb.toString(), "UTF-8");
       }
       catch (IOException e)
       {

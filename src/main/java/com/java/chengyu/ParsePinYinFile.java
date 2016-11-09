@@ -32,9 +32,9 @@ public class ParsePinYinFile
    {
       System.out.println("Enter parse PinYin Collection file!");
       FUNCTION.info("Enter parse!");
-      PropertyConfigurator.configure("./src/main/java/log4j.properties");
-      PropertyConfigurator.configureAndWatch("./src/main/java/log4j.properties", 60000L);
-      String path = "./pinyin.txt";
+      PropertyConfigurator.configure("./src/main/resources/log4j.properties");
+      PropertyConfigurator.configureAndWatch("./src/main/resources/log4j.properties", 60000L);
+      String path = "./src/main/resources/pinyin.txt";
       String content = FileUtils.readStringFromLocalFile(path, "UTF-8");
       Parser parser = new PinYinParser();
       parser.setSource(new StringSource(content));

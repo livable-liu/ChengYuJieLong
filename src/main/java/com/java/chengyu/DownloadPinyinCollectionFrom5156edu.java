@@ -23,8 +23,8 @@ public class DownloadPinyinCollectionFrom5156edu
    {
       System.out.println("Enter download PinYin Collection!");
       FUNCTION.info("Enter download!!");
-      PropertyConfigurator.configure("./src/main/java/log4j.properties");
-      PropertyConfigurator.configureAndWatch("./src/main/java/log4j.properties", 60000L);
+      PropertyConfigurator.configure("./src/main/resources/log4j.properties");
+      PropertyConfigurator.configureAndWatch("./src/main/resources/log4j.properties", 60000L);
       StringBuffer s = new StringBuffer();
       // download A cluster
       for (int i = 101; i < 106; i++)
@@ -329,7 +329,7 @@ public class DownloadPinyinCollectionFrom5156edu
 
       try
       {
-         FileUtils.writeStringToLocalFile("result.log", s.toString(), "UTF-8");
+         FileUtils.writeStringToLocalFile("./log/result.log", s.toString(), "UTF-8");
       }
       catch (IOException e)
       {

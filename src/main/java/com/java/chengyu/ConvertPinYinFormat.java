@@ -94,8 +94,6 @@ public class ConvertPinYinFormat
          String splitter = "\\s+";
          int index = raw2.indexOf("\r\n", start);
 
-         int count = 0;
-
          while (index > 0 && index + "\r\n".length() < raw2.length() - 1)
          {
             String tmp = raw2.substring(start, index);
@@ -118,12 +116,6 @@ public class ConvertPinYinFormat
             sb.append("\r\n");
             start = index + "\r\n".length();
             index = raw2.indexOf("\r\n", start);
-            count++;
-
-            if (count % 1000 == 0)
-            {
-               System.out.println("=============" + count + "==================");
-            }
          }
       }
       return sb.toString();
@@ -133,15 +125,15 @@ public class ConvertPinYinFormat
    {
       System.out.println("Enter convert PinYin format!");
       FUNCTION.info("Enter convert!");
-      PropertyConfigurator.configure("./src/main/java/log4j.properties");
-      PropertyConfigurator.configureAndWatch("./src/main/java/log4j.properties", 60000L);
-      PinYinParseResult result = parsePinYinCollectionFile("./pinyin.txt");
+      PropertyConfigurator.configure("./src/main/resources/log4j.properties");
+      PropertyConfigurator.configureAndWatch("./src/main/resources/log4j.properties", 60000L);
+      PinYinParseResult result = parsePinYinCollectionFile("./src/main/resources/pinyin.txt");
 
 
 
       try
       {
-         FileUtils.writeStringToLocalFile("chengyu_tone.txt", backwardConverter("./chengyu_utf8.txt", result),
+         FileUtils.writeStringToLocalFile("./log/chengyu_tone.txt", backwardConverter("./src/main/resources/chengyu_utf8.txt", result),
                "UTF-8");
       }
       catch (IOException e)
